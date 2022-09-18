@@ -1,0 +1,27 @@
+{
+	"name": "GRAU556 CoD:Modern Warfare 2019",
+	"author": "Stomatolog",
+	"social": "https://steamcommunity.com/id/StomatologCSS/",
+	"authors":
+	[
+		{
+			"name": "Stomatolog", 
+			"social": "https://steamcommunity.com/id/StomatologCSS/", 
+			"role": "Model extraction,MIGI addons,textures"
+		},
+		{
+			"name": "Activision", 
+			"social": "https://www.activision.com/", 
+			"role": "Original assets"
+		},
+		{
+			"name": "Luttz", 
+			"role": "COD Rig for CSGO,scripts,mix sounds"
+		},
+		{
+			"name": "", 
+			"role": ""
+		}
+	],
+	"replacement": "custom weapon"
+}
