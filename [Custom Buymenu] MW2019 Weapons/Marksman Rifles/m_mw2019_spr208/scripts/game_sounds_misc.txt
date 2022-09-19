@@ -1,0 +1,304 @@
+"ShellEject.AR_308"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+    
+	"rndwave"
+	{
+		"wave"	"weapons/shell_eject/ar/casing_eject_308_01.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_308_02.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_308_03.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_308_04.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_308_05.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_308_06.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_308_07.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_308_08.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_308_09.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_308_10.wav"        
+	}
+    
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"ShellEject.AR_556"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+    
+	"rndwave"
+	{
+		"wave"	"weapons/shell_eject/ar/casing_eject_556_01.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_556_02.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_556_03.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_556_04.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_556_05.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_556_06.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_556_07.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_556_08.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_556_09.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_556_10.wav"        
+	}
+    
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"ShellEject.AR_762x54r"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+    
+	"rndwave"
+	{
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_01.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_02.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_03.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_04.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_05.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_06.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_07.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_08.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_09.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_10.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_11.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_12.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_13.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_14.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_15.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_16.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_17.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_18.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_19.wav"
+		"wave"	"weapons/shell_eject/ar/casing_eject_762x54r_20.wav"        
+	}
+    
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"ShellEject.AR_762x54"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+    
+	"rndwave"
+	{
+		"wave"	"weapons/shell_eject/ar/shell_eject_casings_762x54_v1_01.wav"
+		"wave"	"weapons/shell_eject/ar/shell_eject_casings_762x54_v1_02.wav"
+		"wave"	"weapons/shell_eject/ar/shell_eject_casings_762x54_v1_03.wav"
+		"wave"	"weapons/shell_eject/ar/shell_eject_casings_762x54_v1_04.wav"
+		"wave"	"weapons/shell_eject/ar/shell_eject_casings_762x54_v1_05.wav"
+		"wave"	"weapons/shell_eject/ar/shell_eject_casings_762x54_v1_06.wav"
+		"wave"	"weapons/shell_eject/ar/shell_eject_casings_762x54_v1_07.wav"
+		"wave"	"weapons/shell_eject/ar/shell_eject_casings_762x54_v1_08.wav"
+		"wave"	"weapons/shell_eject/ar/shell_eject_casings_762x54_v1_09.wav"
+		"wave"	"weapons/shell_eject/ar/shell_eject_casings_762x54_v1_10.wav"      
+	}
+    
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"ShellEject.HMG_50BMG"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+    
+	"rndwave"
+	{
+		"wave"	"weapons/shell_eject/hmg/50bmg_casing_rings_01.wav"
+		"wave"	"weapons/shell_eject/hmg/50bmg_casing_rings_02.wav"
+		"wave"	"weapons/shell_eject/hmg/50bmg_casing_rings_03.wav"
+		"wave"	"weapons/shell_eject/hmg/50bmg_casing_rings_04.wav"
+		"wave"	"weapons/shell_eject/hmg/50bmg_casing_rings_05.wav"
+		"wave"	"weapons/shell_eject/hmg/50bmg_casing_rings_06.wav"
+		"wave"	"weapons/shell_eject/hmg/50bmg_casing_rings_07.wav"
+		"wave"	"weapons/shell_eject/hmg/50bmg_casing_rings_08.wav"
+		"wave"	"weapons/shell_eject/hmg/50bmg_casing_rings_09.wav"  
+	}
+    
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"ShellEject.Pistol_9mm"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+    
+	"rndwave"
+	{
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_01.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_02.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_03.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_04.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_05.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_06.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_07.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_08.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_09.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_10.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_11.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_12.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_13.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_14.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_15.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_16.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_17.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_18.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_19.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_20.wav"
+	}
+    
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"ShellEject.Pistol_45ACP"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+    
+	"rndwave"
+	{
+		"wave"	"weapons/shell_eject/pistol/casing_eject_45acp_01.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_45acp_02.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_45acp_03.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_45acp_04.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_45acp_05.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_45acp_06.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_45acp_07.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_45acp_08.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_45acp_09.wav"
+	}
+    
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}

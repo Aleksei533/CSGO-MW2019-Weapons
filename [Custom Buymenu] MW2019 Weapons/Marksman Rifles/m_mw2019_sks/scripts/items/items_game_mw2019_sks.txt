@@ -1,0 +1,123 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"weapon_sks_prefab"
+		{
+			"prefab"		"sniper_rifle"
+			"item_class"		"weapon_deagle"
+			"item_name"		"SKS"
+			"item_description"		"sks"
+			"item_rarity"		"rare"
+			"model_player"		"models/weapons/v_sn_sks.mdl"
+			"model_world"		"models/weapons/w_sn_sks.mdl"
+			"model_dropped"		"models/weapons/w_sn_sks_dropped.mdl"
+			"stickers"
+			{
+			}
+			"used_by_classes"
+			{
+				"counter-terrorists"		"1"
+				"terrorists"		"1"
+			}
+			"attributes"
+			{
+				"magazine model"		"models/weapons/w_sn_sks_mag.mdl"
+				"primary reserve ammo max"		"90"
+				"inaccuracy jump initial"		"107.690002"
+				"inaccuracy jump"		"153.770004"
+				"inaccuracy jump alt"		"153.770004"
+				"heat per shot"		"0.350000"
+				"addon scale"		"0.900000"
+				"max player speed"		"215"
+				"max player speed alt"		"120"
+				"is full auto"		"1"
+				"in game price"		"5000"
+				"armor ratio"		"1.650000"
+				"penetration"		"2.500000"
+				"damage"		"80"
+				"range"		"8192"
+				"cycletime"		"0.1875"
+				"time to idle"		"1.800000"
+				"idle interval"		"60"
+				"flinch velocity modifier large"		"0.500000"
+				"flinch velocity modifier small"		"0.650000"
+				"spread"		"0.300000"
+				"inaccuracy crouch"		"19.350000"
+				"inaccuracy stand"		"25.799999"
+				"inaccuracy land"		"0.262000"
+				"inaccuracy ladder"		"116.389999"
+				"inaccuracy fire"		"18.610001"
+				"inaccuracy move"		"150.479996"
+				"spread alt"		"0.300000"
+				"inaccuracy crouch alt"		"1.500000"
+				"inaccuracy stand alt"		"2.000000"
+				"inaccuracy land alt"		"0.262000"
+				"inaccuracy ladder alt"		"116.389999"
+				"inaccuracy fire alt"		"18.610001"
+				"inaccuracy move alt"		"150.479996"
+				"recovery time crouch"		"0.388808"
+				"recovery time stand"		"0.544331"
+				"recoil angle"		"0"
+				"recoil angle variance"		"30"
+				"recoil magnitude"		"30"
+				"recoil magnitude variance"		"4"
+				"recoil seed"		"29908"
+				"primary clip size"		"20"
+				"weapon weight"		"20"
+				"rumble effect"		"4"
+				"recoil angle alt"		"0"
+				"recoil angle variance alt"		"30"
+				"recoil magnitude alt"		"30"
+				"recoil magnitude variance alt"		"4"
+				"recovery time crouch final"		"0.388808"
+				"recovery time stand final"		"0.544331"
+			}
+			"inventory_image_data"
+			{
+				"camera_angles"		"-5.0 -140.0 0.0"
+				"camera_offset"		"28.0 2.7 -2.3"
+			}
+			"paint_data"
+			{
+				"PaintableMaterial0"
+				{
+					"Name"		"snip_g3sg1"
+					"ViewmodelDim"		"2048"
+					"WorldDim"		"512"
+					"BaseTextureOverride"		"1"
+					"WeaponLength"		"41.975601"
+					"UVScale"		"0.703000"
+				}
+			}
+			"visuals"
+			{
+				"muzzle_flash_effect_1st_person"		"AC_muzzle_sks"
+				"muzzle_flash_effect_3rd_person"		"AC_muzzle_sks"
+				"heat_effect"		"AC_muzzle_sks_smoke"
+				"addon_location"		"primary_sniper"
+				"eject_brass_effect"		"weapon_shell_casing_rifle"
+				"tracer_effect"		"weapon_tracers_rifle"
+				"weapon_type"		"Rifle"
+				"player_animation_extension"		"g3"
+				"primary_ammo"		"BULLET_PLAYER_762MM"
+				"sound_single_shot"		"Weapon_sks.Single"
+				"sound_nearlyempty"		"Default.nearlyempty"
+			}
+		}
+	}
+
+	"items"
+	{
+		"10046"
+		{
+			"name"		"weapon_sks"
+			"prefab"		"weapon_sks_prefab"
+			"item_quality"		"normal"
+			"baseitem"		"0"
+			"default_slot_item"		"0"
+			"item_rarity"        "legendary"
+			"item_sub_position"		"rifle5"
+		}
+    }
+}
