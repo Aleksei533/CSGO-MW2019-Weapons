@@ -1,0 +1,66 @@
+"Equipment_Throwing_Knife.Raise"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+
+    "rndwave"
+    {
+       "wave"			")equipments/throwing_knife/weap_throwing_knife_prepare_01.wav"
+       "wave"			")equipments/throwing_knife/weap_throwing_knife_prepare_02.wav"
+    }
+
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Equipment_Throwing_Knife.Throw"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+    
+    "rndwave"
+    {
+       "wave"			")equipments/throwing_knife/weap_throwing_knife_throw_01.wav"
+       "wave"			")equipments/throwing_knife/weap_throwing_knife_throw_02.wav"
+	   "wave"			")equipments/throwing_knife/weap_throwing_knife_throw_03.wav"
+    }
+    
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}

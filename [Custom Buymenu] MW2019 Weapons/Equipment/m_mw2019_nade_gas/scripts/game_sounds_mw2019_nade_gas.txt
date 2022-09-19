@@ -1,0 +1,168 @@
+"BaseGasEffect.Sound"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"		"SNDLVL_85dB"
+    
+    "rndwave"
+    {
+       "wave"			"~)equipments/gas/gas_expl_01.wav"
+       "wave"			"~)equipments/gas/gas_expl_02.wav"
+	   "wave"			"~)equipments/gas/gas_expl_03.wav"
+    }
+    
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_distance_weapon_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "BaseGasEffect.SoundDistant"
+			}
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "AllWeapons"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+
+		}
+	}
+
+}
+
+"BaseGasEffect.SoundDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_110dB"
+	"wave"			"~)equipments/gas/gas_expl_dist.wav"
+	"soundentry_version" "2"
+
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ExplosionsDistant"
+			}
+		}
+	}
+}
+
+"SmokeGrenade.Bounce"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"PITCH_NORM"
+    "rndwave"
+    {
+	   "wave"			")equipments/gas/phy_frag_bounce_concrete_hard_01_ext.wav"
+       "wave"			")equipments/gas/phy_frag_bounce_concrete_hard_02_ext.wav"
+       "wave"			")equipments/gas/phy_frag_bounce_concrete_hard_03_ext.wav"
+    }
+}
+
+"Equipment_Gas.Throw"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+    "pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_75dB"
+    "rndwave"
+    {
+       "wave"			")equipments/gas/grenade_smoke_fire_01.wav"
+       "wave"			")equipments/gas/grenade_smoke_fire_02.wav"
+    }
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Equipment_Gas.Pin"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+    "wave"			"equipments/gas/grenade_pin_smoke.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Equipment_Gas.Pin_Cloth"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"equipments/gas/grenade_pin_smoke_cloth.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}

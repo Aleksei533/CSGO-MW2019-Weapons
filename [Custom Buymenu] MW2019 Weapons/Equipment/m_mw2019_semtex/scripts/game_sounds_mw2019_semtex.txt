@@ -1,0 +1,233 @@
+"Equipment_SemTex.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"  		"SNDLVL_140dB"
+	"pitch"			"100"
+	"rndwave"
+	{
+		    "wave"	")equipments/semtex/frag_expl_01.wav"
+			"wave"	")equipments/semtex/frag_expl_02.wav"
+            "wave"	")equipments/semtex/frag_expl_03.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_distance_weapon_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Equipment_SemTex.ExplodeDistant"
+			}
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "Explosions"
+			}
+			
+			"volume_xfade_start_dist"
+			{
+				"input2" "100"
+			}
+			
+			"volume_xfade_end_dist"
+			{
+				"operator" "math_float"
+				"apply" "mult"
+				"input1" "@volume_sound_falloff_multiplier.output"
+				"input2" "2800"
+			}
+			
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+			
+			"dsp_emitter"
+			{
+				"operator" "math_float"
+				"apply"	      "set"
+				"input1" "0.1"	
+			}
+			
+			//"speakers_spatialize"
+			//{
+				//"input_radius_min"  "1000"
+				//"input_radius_max"  "2000"
+			//}
+
+		}
+	}
+
+}
+
+"Equipment_SemTex.ExplodeDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_130dB"
+	"rndwave"
+	{
+			"wave"	")equipments/semtex/frag_expl_dist_01.wav"	
+			"wave"	")equipments/semtex/frag_expl_dist_02.wav"
+            "wave"	")equipments/semtex/frag_expl_dist_03.wav"
+	}
+	"soundentry_version" "2"
+
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ExplosionsDistant"
+			}
+			
+			"dsp_emitter"
+			{
+				"operator" "math_float"
+				"apply"	      "set"
+				"input1" "0.1"	
+			}
+		}
+	}
+}
+
+"Equipment_Semtex.Throw"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+    "pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_75dB"
+	"wave"			")equipments/semtex/grenade_pin_semtex_fire.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Equipment_Semtex.Pin"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+    "wave"			"equipments/semtex/grenade_pin_semtex.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Equipment_Semtex.Pin_Cloth"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"equipments/semtex/grenade_pin_semtex_cloth.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Equipment_Semtex.Activate"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.75"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_NORM"
+	"wave"			"~equipments/semtex/weap_semtex_beep_2sec.wav"
+}
+
+"Sensor.Activate"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_NORM"
+	"wave"			"common/null.wav"
+}
+
+"Sensor.Detonate"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_NORM"
+	"wave"			"common/null.wav"
+}
+
+"Sensor.WarmupBeep"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_NORM"
+	"wave"			"common/null.wav"
+}
+
+"Sensor.DetectPlayer_Hud"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_NORM"
+	"wave"			"common/null.wav"
+}
+

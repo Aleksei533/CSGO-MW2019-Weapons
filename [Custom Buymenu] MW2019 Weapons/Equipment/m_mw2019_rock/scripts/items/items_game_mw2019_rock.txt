@@ -1,0 +1,36 @@
+"items_game"
+{
+	"items"
+	{
+		"1659"
+		{
+			"name"		"weapon_rock"
+			"prefab"		"weapon_melee_prefab_noncustomizable"
+			"item_class"		"weapon_melee"
+			"item_name"		"Rock"
+			"item_description"		"Rock made out of stone to bash some sense into the one who's being attacked."
+			"item_quality"		"normal"
+			"baseitem"		"0"
+			"default_slot_item"		"0"
+			"item_rarity"        "common"
+			"image_inventory"		"mw2019_weapons/rock"
+			"model_player"		"models/weapons/v_rock.mdl"
+			"model_world"		"models/weapons/w_rock.mdl"
+			"model_dropped"		"models/weapons/w_rock_dropped.mdl"
+			"used_by_classes"
+			{
+				"terrorists"		"1"
+			}
+			"attributes"
+			{
+				"damage"		"5"
+			}
+			"visuals"
+			{
+				"weapon_type"		"Melee"
+				"player_animation_extension"		"gren"
+				"sound_single_shot"		"Equipment_Rock.Throw"
+			}
+		}
+    }
+}

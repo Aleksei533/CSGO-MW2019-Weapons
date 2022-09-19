@@ -1,0 +1,41 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"weapon_shield_prefab"
+		{
+			"prefab"		"equipment"
+			"item_class"		"weapon_shield"
+			"item_name"		"#SFUI_WPNHUD_Shield"
+			"item_description"		"#CSGO_Item_Desc_Shield"
+			"image_inventory"		"econ/weapons/base_weapons/weapon_shield"
+			"icon_default_image"		"materials/icons/inventory_icon_weapon_shield.vtf"
+			"model_player"		"models/weapons/v_shield.mdl"
+			"model_world"		"models/weapons/w_eq_shield.mdl"
+			"model_dropped"		"models/weapons/w_eq_shield_back.mdl"
+			"item_quality"		"normal"
+			"baseitem"		"0"
+			"default_slot_item"		"1"
+			"item_slot"		"heavy"
+			"item_sub_position"		"heavy5"
+			"item_gear_slot"		"melee"
+			"item_gear_slot_position"		"3"
+			"used_by_classes"
+			{
+				"terrorists"		"1"
+				"counter-terrorists"		"1"
+			}
+			"attributes"
+			{
+				"in game price"		"3000"
+				"max player speed"		"200"
+				"max player speed alt"		"200"
+				"weapon weight"		"0"
+			}
+			"visuals"
+			{
+				"weapon_type"		"Shield"
+			}
+		}
+    }
+}

@@ -1,0 +1,44 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"weapon_soscar_knife_prefab"
+		{
+			"prefab"		"melee"
+			"item_name"		"Knife"
+			"item_description"		"CoD knife"
+			"item_rarity"		"rare"
+			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"model_player"		"models/weapons/v_me_knife.mdl"
+			"model_world"		"models/weapons/w_me_soscar.mdl"
+			"model_dropped"		"models/weapons/w_me_soscar_dropped.mdl"
+			"stickers"
+			{
+			}
+			"used_by_classes"
+			{
+				"terrorists"		"1"
+				"counter-terrorists"		"1"
+			}
+			"attributes"
+			{
+				"icon display model"		"models/weapons/w_knife_default_t.mdl"
+				"pedestal display model"		"models/weapons/v_knife_default_t_inspect.mdl"
+			}
+		}
+	}
+
+	"items"
+	{
+		"10066"
+		{
+			"name"		"weapon_soscar_knife"
+			"prefab"		"weapon_soscar_knife_prefab"
+			"item_quality"		"normal"
+			"baseitem"		"0"
+			"default_slot_item"		"0"
+			"item_rarity"        "legendary"
+			"item_sub_position"		"melee"
+		}
+    }
+}

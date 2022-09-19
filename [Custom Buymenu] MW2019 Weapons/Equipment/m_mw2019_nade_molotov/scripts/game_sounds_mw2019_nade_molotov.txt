@@ -1,0 +1,244 @@
+"Equipment_Molotov.Throw"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"	
+	"soundlevel"  		"SNDLVL_65dB"
+    
+    "rndwave"
+    {
+	   "wave"			")equipments/molotov/weap_molotov_throw_01.wav"
+       "wave"			")equipments/molotov/weap_molotov_throw_02.wav"
+       "wave"			")equipments/molotov/weap_molotov_throw_03.wav"
+       "wave"			")equipments/molotov/weap_molotov_throw_04.wav"
+    }
+    
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Molotov.Throw"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+    
+    "rndwave"
+    {
+	   "wave"			")equipments/molotov/weap_molotov_throw_01.wav"
+       "wave"			")equipments/molotov/weap_molotov_throw_02.wav"
+       "wave"			")equipments/molotov/weap_molotov_throw_03.wav"
+       "wave"			")equipments/molotov/weap_molotov_throw_04.wav"
+    }
+}
+
+"Molotov.IdleLoop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_NORM"
+	"wave"			"weapons/molotov/fire_idle_loop_1.wav"
+}
+
+"Inferno.Start"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.6"
+	"soundlevel"		"SNDLVL_95dB"
+	"rndwave"
+	{
+		"wave"			"~)equipments/molotov/weap_molotov_bottle_01.wav"
+		"wave"			"~)equipments/molotov/weap_molotov_bottle_02.wav"
+		"wave"			"~)equipments/molotov/weap_molotov_bottle_03.wav"
+        "wave"			"~)equipments/molotov/weap_molotov_bottle_04.wav"
+	}
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_distance_weapon_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Inferno.StartDistant"
+			}
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "Explosions"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+
+		}
+	}
+}
+
+"Inferno.StartDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.3"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_130dB"
+	"rndwave"
+	{
+		"wave"			"~)equipments/molotov/weap_molotov_bottle_01.wav"
+		"wave"			"~)equipments/molotov/weap_molotov_bottle_02.wav"
+		"wave"			"~)equipments/molotov/weap_molotov_bottle_03.wav"
+        "wave"			"~)equipments/molotov/weap_molotov_bottle_04.wav"
+	}
+	"soundentry_version" "2"
+
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "ExplosionsDistant"
+			}
+		}
+	}
+}
+
+"Inferno.StartSweeten"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.3"
+	"soundlevel"		"SNDLVL_95dB"
+	"wave"			"~)equipments/molotov/weap_molotov_bottle_01.wav"
+}
+
+"Inferno.FadeOut"
+{
+	"channel"		"CHAN_AUTO"
+	"soundlevel"		"SNDLVL_95dB"
+	"volume"		"1"
+    "rndwave"
+    {
+	   "wave"			"equipments/molotov/weap_molotov_fire_lp_end_01.wav"
+       "wave"			"equipments/molotov/weap_molotov_fire_lp_end_02.wav"
+       "wave"			"equipments/molotov/weap_molotov_fire_lp_end_03.wav"
+    }
+}
+
+"Inferno.Loop"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_95dB"
+    "rndwave"
+    {
+	   "wave"			"equipments/molotov/weap_molotov_burn_lp_01.wav"
+       "wave"			"equipments/molotov/weap_molotov_burn_lp_02.wav"
+       "wave"			"equipments/molotov/weap_molotov_burn_lp_03.wav"
+    }
+}
+
+"Inferno.Fire.Ignite"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0"
+	"soundlevel"		"SNDLVL_85dB"
+	"rndwave"
+	{
+		"wave"		"weapons/molotov/fire_ignite_1.wav"
+		"wave"		"weapons/molotov/fire_ignite_4.wav"
+		"wave"		"weapons/molotov/fire_ignite_5.wav"
+	}
+
+	"soundentry_version" "2"
+
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+			"limit_entry"
+			{
+				"input_max_entries" "1.000000" //A sound will not stop itself from playing.
+			}
+		}
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"volume_fade_out"
+			{
+				"input_max"   "0.3"
+			}
+
+		}
+	}
+}
+
+"Molotov.Loop"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_NORM"
+    "rndwave"
+    {
+	   "wave"			"equipments/molotov/weap_molotov_burn_lp_01.wav"
+       "wave"			"equipments/molotov/weap_molotov_burn_lp_02.wav"
+       "wave"			"equipments/molotov/weap_molotov_burn_lp_03.wav"
+    }
+}
+
+
+"Equipment_Molotov.Pullout"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"equipments/molotov/weap_molotov_pullout_01.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}

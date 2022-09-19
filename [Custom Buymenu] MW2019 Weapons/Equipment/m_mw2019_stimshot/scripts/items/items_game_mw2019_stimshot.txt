@@ -1,0 +1,33 @@
+"items_game"
+{
+	"items"
+	{
+		"51"
+		{
+			"item_sub_position"		"none"
+		}
+		"57"
+		{
+			"name"		"weapon_healthshot"
+			"prefab"		"weapon_healthshot_prefab"
+			"item_class"		"weapon_healthshot"
+			"item_name"		"Stim"
+			"item_description"		"Military stimulant that cauterizes combat wounds and boosts user's stamina for a short chunk of time."
+			"item_quality"		"normal"
+			"baseitem"		"1"
+			"default_slot_item"		"1"
+			"item_gear_slot"		"boost"
+			"item_gear_slot_position"		"0"
+			"item_sub_position"		"equipment1"
+			"attributes"
+			{
+				"in game price"		"1500"
+			}
+			"used_by_classes"
+			{
+				"terrorists"		"1"
+				"counter-terrorists"		"1"
+			}
+		}
+    }
+}

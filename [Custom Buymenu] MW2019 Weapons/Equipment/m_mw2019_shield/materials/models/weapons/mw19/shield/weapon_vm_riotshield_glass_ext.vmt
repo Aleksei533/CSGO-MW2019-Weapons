@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\mw19\shield\glass"
+"$bumpmap" "models\weapons\mw19\shield\glass_n"
+"$phongexponenttexture" "models\weapons\mw19\shield\glass_exp"
+"$phongwarptexture" "models\weapons\mw19\shield\film"
+
+	"$phong" "1"
+	"$phongboost" "10"
+    "$phongdisablehalflambert" "1"
+	"$phongalbedotint" "1"
+	"$phongalbedoboost"	"0"
+	"$phongfresnelranges" "[.3 .5 1]"
+	"$envmap" "env_cubemap"
+	"$envmaptint"	"[5 5 5]"
+	"$envmapfresnel" "1"
+    "$normalmapalphaenvmapmask" "1"
+    "$translucent" "1"
+}

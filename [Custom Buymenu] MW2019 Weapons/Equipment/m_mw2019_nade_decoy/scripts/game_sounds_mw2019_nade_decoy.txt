@@ -1,0 +1,97 @@
+"Equipment_Decoy.Throw"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+    "pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_75dB"
+	
+    "rndwave"
+    {
+	    "wave"			")equipments/decoy/grenade_decoy_fire_01.wav"
+        "wave"			")equipments/decoy/grenade_decoy_fire_02.wav"
+    }
+    
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Flashbang.Bounce"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1"
+	"soundlevel"		"SNDLVL_75dB"
+	"pitch"			"PITCH_NORM"
+    "rndwave"
+    {
+	   "wave"			")equipments/decoy/phy_flash_bounce_concrete_hard_01_ext.wav"
+       "wave"			")equipments/decoy/phy_flash_bounce_concrete_hard_02_ext.wav"
+       "wave"			")equipments/decoy/phy_flash_bounce_concrete_hard_03_ext.wav"
+    }
+}
+
+"Equipment_Decoy.Pin"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"equipments/decoy/grenade_pin_decoy.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Equipment_Decoy.Pin_Cloth"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"equipments/decoy/iw8_grenade_decoy_pin_cloth.wav"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}

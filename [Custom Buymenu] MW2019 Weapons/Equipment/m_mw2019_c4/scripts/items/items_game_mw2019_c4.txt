@@ -1,0 +1,17 @@
+"items_game"
+{
+	"items"
+	{
+		"70"
+		{
+			"name"		"weapon_breachcharge"
+			"prefab"		"weapon_breachcharge_prefab"
+			"item_class"		"weapon_breachcharge"
+			"item_quality"		"normal"
+			"attributes"
+			{
+				"primary clip size"		"1"
+			}
+		}
+    }
+}

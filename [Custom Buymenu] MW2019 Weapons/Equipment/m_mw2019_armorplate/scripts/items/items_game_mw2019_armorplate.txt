@@ -1,0 +1,81 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"mw2019_armorplate_prefab"
+		{
+			"prefab"		"equipment"
+			"item_class"		"weapon_healthshot"
+			"item_name"		"Armor Plate"
+			"item_description"		"Restores 25 units of user's armor."
+			"icon_default_image"		"materials/icons/inventory_icon_weapon_shield.vtf"
+			"item_quality"		"normal"
+			"item_gear_slot"		"boost"
+			"item_gear_slot_position"		"2"
+			"attributes"
+			{
+				"in game price"		"500"
+				"max player speed"		"240"
+				"max player speed alt"		"240"
+				"armor ratio"		"1.000000"
+				"penetration"		"1"
+				"crosshair min distance"		"6"
+				"damage"		"50"
+				"range"		"4096"
+				"range modifier"		"0.990000"
+				"weapon weight"		"0"
+				"primary default clip size"		"1"
+				"secondary default clip size"		"1"
+			}
+			"visuals"
+			{
+				"weapon_type"		"Knife"
+			}
+		}
+	}
+	"items"
+	{
+		"50"
+		{
+			"item_sub_position"		"none"
+		}
+		"150"
+		{
+			"name"		"weapon_armorplate_ct"
+			"prefab"		"mw2019_armorplate_prefab"
+			"item_class"		"weapon_taser"
+			"image_inventory"		"mw2019_weapons/armor_plate"
+			"item_quality"		"normal"
+			"item_slot"		"equipment"
+			"baseitem"		"1"
+			"default_slot_item"		"1"
+			"item_sub_position"		"equipment0"
+			"model_player"		"models/weapons/v_eq_armor_plate.mdl"
+			"model_world"		"models/weapons/w_eq_armor_plate.mdl"
+			"model_dropped"		"models/weapons/w_eq_armor_plate_dropped.mdl"
+			"used_by_classes"
+			{
+				"counter-terrorists"		"1"
+			}
+		}
+		"151"
+		{
+			"name"		"weapon_armorplate_t"
+			"prefab"		"mw2019_armorplate_prefab"
+			"item_class"		"weapon_taser"
+			"image_inventory"		"mw2019_weapons/armor_plate_green"
+			"item_quality"		"normal"
+			"item_slot"		"equipment"
+			"baseitem"		"1"
+			"default_slot_item"		"1"
+			"item_sub_position"		"equipment0"
+			"model_player"		"models/weapons/v_eq_armor_plate_green.mdl"
+			//"model_world"		"models/weapons/w_eq_armor_plate_green.mdl"
+			//"model_dropped"		"models/weapons/w_eq_armor_plate_green_dropped.mdl"
+			"used_by_classes"
+			{
+				"terrorists"		"1"
+			}
+		}
+    }
+}

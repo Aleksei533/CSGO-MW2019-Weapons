@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\mw19\grenade_frag\frag"
+"$bumpmap" "models\weapons\mw19\grenade_frag\frag_n"
+"$phongexponenttexture" "models\weapons\mw19\grenade_frag\frag_exp"
+	
+    "$color2" "[0 0 0]"
+	"$phong" "1"
+	"$phongboost" "8"
+    "$phongdisablehalflambert" "1"
+	"$phongalbedotint" "1"
+	"$phongalbedoboost"	"50"
+	"$phongfresnelranges" "[.3 .5 1]"
+	"$envmap" "env_cubemap"
+	"$envmaptint"	"[.05 .04 .03]"
+	"$envmapfresnel" ".7"
+    "$blendtintbybasealpha" "1"
+}

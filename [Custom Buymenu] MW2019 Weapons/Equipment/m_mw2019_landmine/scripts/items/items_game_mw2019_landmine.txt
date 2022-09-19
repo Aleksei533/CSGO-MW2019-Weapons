@@ -1,0 +1,14 @@
+"items_game"
+{
+	"items"
+	{
+		"85"
+		{
+			"name"		"weapon_bumpmine"
+			"prefab"		"weapon_bumpmine_prefab"
+			"item_class"		"weapon_bumpmine"
+			"item_name"		"Proximity Mine"
+			"item_description"		"Detonates once any moving target steps on this mine."
+		}
+    }
+}

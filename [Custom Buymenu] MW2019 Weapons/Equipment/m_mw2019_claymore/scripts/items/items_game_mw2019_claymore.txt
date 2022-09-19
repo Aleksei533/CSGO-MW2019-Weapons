@@ -1,0 +1,14 @@
+"items_game"
+{
+	"items"
+	{
+		"85"
+		{
+			"name"		"weapon_bumpmine"
+			"prefab"		"weapon_bumpmine_prefab"
+			"item_class"		"weapon_bumpmine"
+			"item_name"		"Claymore"
+			"item_description"		"Directional anti-personnel mine that triggers a proximity-based explosion."
+		}
+    }
+}
