@@ -1,0 +1,151 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"weapon_hdr_prefab"
+		{
+			"prefab"		"sniper_rifle"
+			"item_class"		"weapon_deagle"
+			"item_name"		"HDR"
+			"item_description"		"HDR"
+			"item_rarity"		"rare"
+			"model_player"		"models/weapons/v_sn_hdr.mdl"
+			"model_world"		"models/weapons/w_sn_hdr.mdl"
+			"model_dropped"		"models/weapons/w_sn_hdr_dropped.mdl"
+			"zoom_in_sound"		"Weapon_SSG08.Zoom"
+			"zoom_out_sound"		"Weapon_SSG08.Zoom"
+			"stickers"
+			{
+			}
+			"used_by_classes"
+			{
+				"counter-terrorists"		"1"
+				"terrorists"		"1"
+			}
+			"inventory_image_data"
+			{
+				"camera_angles"		"-5.0 -140.0 0.0"
+				"camera_offset"		"20.0 4.0 -2.4"
+				"spot_light_key"
+				{
+					"position"		"-120 120 120"
+					"color"		"2 2.1 2.3"
+					"lookat"		"0.0 0.0 0.0"
+					"inner_cone"		"0.500000"
+					"outer_cone"		"1.000000"
+				}
+			}
+			"attributes"
+			{
+				"magazine model"		"models/weapons/w_sn_hdr_mag.mdl"
+				"unzoom after shot"		"1"
+				"primary reserve ammo max"		"90"
+				"inaccuracy jump initial"		"208.720001"
+				"inaccuracy jump"		"5.720000"
+				"inaccuracy jump alt"		"5.720000"
+				"heat per shot"		"0.500000"
+				"addon scale"		"0.900000"
+				"max player speed"		"230"
+				"max player speed alt"		"230"
+				"in game price"		"1700"
+				"armor ratio"		"1.700000"
+				"crosshair min distance"		"5"
+				"zoom levels"		"2"
+				"zoom time 0"		"0.050000"
+				"zoom fov 1"		"40"
+				"zoom time 1"		"0.050000"
+				"zoom fov 2"		"15"
+				"zoom time 2"		"0.050000"
+				"hide view model zoomed"		"1"
+				"penetration"		"2.500000"
+				"damage"		"88"
+				"range"		"8192"
+				"cycletime"		"1.250000"
+				"time to idle"		"1.800000"
+				"idle interval"		"60"
+				"flinch velocity modifier large"		"0.350000"
+				"flinch velocity modifier small"		"0.400000"
+				"spread"		"0.280000"
+				"inaccuracy crouch"		"23.780001"
+				"inaccuracy stand"		"31.700001"
+				"inaccuracy land"		"0.215000"
+				"inaccuracy ladder"		"95.489998"
+				"inaccuracy fire"		"22.920000"
+				"inaccuracy move"		"123.449997"
+				"spread alt"		"0.230000"
+				"inaccuracy crouch alt"		"2.800000"
+				"inaccuracy stand alt"		"3.000000"
+				"inaccuracy land alt"		"0.215000"
+				"inaccuracy ladder alt"		"95.489998"
+				"inaccuracy fire alt"		"22.920000"
+				"inaccuracy move alt"		"123.449997"
+				"recovery time crouch"		"0.055783"
+				"recovery time stand"		"0.142096"
+				"recoil angle"		"0"
+				"recoil angle variance"		"20"
+				"recoil magnitude"		"33"
+				"recoil magnitude variance"		"15"
+				"recoil seed"		"1278"
+				"primary clip size"		"10"
+				"weapon weight"		"30"
+				"rumble effect"		"4"
+				"recoil angle alt"		"0"
+				"recoil angle variance alt"		"20"
+				"recoil magnitude alt"		"25"
+				"recoil magnitude variance alt"		"2"
+				"recovery time crouch final"		"0.055783"
+				"recovery time stand final"		"0.142096"
+			}
+			"paint_data"
+			{
+				"PaintableMaterial0"
+				{
+					"Name"		"snip_ssg08"
+					"ViewmodelDim"		"2048"
+					"WorldDim"		"512"
+					"BaseTextureOverride"		"1"
+					"WeaponLength"		"49.181999"
+					"UVScale"		"1.084000"
+				}
+				"PaintableMaterial1"
+				{
+					"Name"		"snip_ssg08_scope"
+					"FolderName"		"snip_ssg08"
+					"ViewmodelDim"		"2048"
+					"WorldDim"		"512"
+					"BaseTextureOverride"		"0"
+					"WeaponLength"		"13.859800"
+					"UVScale"		"0.424000"
+				}
+			}
+			"visuals"
+			{
+				"muzzle_flash_effect_1st_person"		"AC_muzzle_HDR"
+				"muzzle_flash_effect_3rd_person"		"AC_muzzle_HDR"
+				"heat_effect"		"AC_muzzle_minigun_smoke_barrel"
+				"addon_location"		"primary_sniper"
+				"eject_brass_effect"		"cod_shell_50BMG_ax50"
+				"tracer_effect"		"pb_ins2_muzzleflash_tracer"
+				"weapon_type"		"SniperRifle"
+				"player_animation_extension"		"ssg08"
+				"primary_ammo"		"BULLET_PLAYER_762MM"
+				"sound_single_shot"		"Weapon_HDR.Single"
+				"sound_nearlyempty"		"Default.nearlyempty"
+			}
+		}
+	}
+
+	"items"
+	{
+		"10024"
+		{
+			"name"		"weapon_hdr"
+			"prefab"		"weapon_hdr_prefab"
+			"item_quality"		"normal"
+			"baseitem"		"0"
+			"default_slot_item"		"0"
+			"item_rarity"        "legendary"
+			"item_sub_position"		"rifle2"
+		}
+    }
+}

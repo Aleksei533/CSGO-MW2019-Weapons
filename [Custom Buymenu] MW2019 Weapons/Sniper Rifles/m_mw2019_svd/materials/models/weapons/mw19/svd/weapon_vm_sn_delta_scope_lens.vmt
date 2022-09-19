@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\mw19\svd\lens"
+"$bumpmap" "models\weapons\mw19\svd\lens_n"
+"$phongexponenttexture" "models\weapons\mw19\svd\lens_exp"
+	
+	"$phong" "1"
+	"$phongboost" "8"
+	"$phongexponent" "600"
+	"$phongalbedotint" "1"
+	"$phongalbedoboost"	"0"
+	"$phongfresnelranges" "[.3 0 0]"
+	"$envmap" "env_cubemap"
+	"$envmaptint"	"[1 1 1]"
+	"$envmapfresnel" "1.2" 
+}
