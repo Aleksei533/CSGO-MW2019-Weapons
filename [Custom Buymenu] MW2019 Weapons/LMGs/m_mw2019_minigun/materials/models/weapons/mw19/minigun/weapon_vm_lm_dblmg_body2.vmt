@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\weapons\mw19\minigun\body2"
+"$bumpmap" "models\weapons\mw19\minigun\body2_n"
+"$phongexponenttexture" "models\weapons\mw19\minigun\body2_exp"
+
+    "$color2" "[0 0 0]"
+	"$phong" "1"
+	"$phongboost" "8"
+    "$phongdisablehalflambert" "1"
+	"$phongalbedotint" "1"
+	"$phongalbedoboost"	"90"
+	"$phongfresnelranges" "[.3 .5 1]"
+	"$envmap" "env_cubemap"
+	"$envmaptint"	"[.013 .013 .013]"	
+	"$envmapfresnel" "1"
+    "$blendtintbybasealpha" "1"
+}
