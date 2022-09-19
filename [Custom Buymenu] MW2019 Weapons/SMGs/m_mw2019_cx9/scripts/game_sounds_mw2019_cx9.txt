@@ -1,0 +1,809 @@
+"Weapon_CX9.Single"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"100"
+        "soundlevel"  		"SNDLVL_79dB"
+	
+	"rndwave"
+	{
+		"wave"	")weapons/cx9/weap_secho_fire_plr_01.wav"
+		"wave"	")weapons/cx9/weap_secho_fire_plr_02.wav"
+		"wave"	")weapons/cx9/weap_secho_fire_plr_03.wav"
+		"wave"	")weapons/cx9/weap_secho_fire_plr_04.wav"
+	}
+	
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_distance_weapon_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_CX9.SingleDistant"
+			}
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "Weapons1"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+		}
+	}
+	
+}
+
+"Weapon_CX9.SingleDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.4"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_94dB"
+
+	"rndwave"
+	{
+		"wave"	")weapons/cx9/weap_secho_fire_plr_01.wav"
+		"wave"	")weapons/cx9/weap_secho_fire_plr_02.wav"
+		"wave"	")weapons/cx9/weap_secho_fire_plr_03.wav"
+		"wave"	")weapons/cx9/weap_secho_fire_plr_04.wav"
+	}
+
+	"soundentry_version" "2"
+
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+
+		}
+	}
+	
+}
+
+"Weapon_CX9.Inspect_Magout"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_inspect_magout.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Inspect_Magin"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_inspect_magin.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Inspect_End"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_inspect_end.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Raise"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_raise.wav"
+    "hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Raise_First_Charge"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_raise_first_charge.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Raise_First_End"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_raise_first_end.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Raise_First_Up"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_raise_first_up.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Reload_Empty_Charge"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_reload_empty_charge.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Reload_Empty_End"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_reload_empty_end.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Reload_Empty_Maghit"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_reload_empty_maghit.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Reload_Empty_Magin"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_reload_empty_magin.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Reload_Empty_Magout"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_reload_empty_magout.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Reload_Empty_Mvmnt"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_reload_empty_mvmnt.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Reload_Empty_Up"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_reload_empty_up.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Reload_End"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_reload_end.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Reload_Maghit"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_reload_maghit.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Reload_Magin"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_reload_magin.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Reload_Magout"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_reload_magout.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Weapon_CX9.Reload_Up"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/cx9/wfoly_sm_secho_reload_up.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Idle.Rifle_Move01"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.3"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"	"weapons/idle_active/wpfoly_ar_idle_1_v1.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Idle.Rifle_Move02"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.3"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"	"weapons/idle_active/wpfoly_ar_idle_2_v1.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Idle.Rifle_Move03"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.3"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"	"weapons/idle_active/wpfoly_ar_idle_3_v1.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Idle.Rifle_Move04"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.3"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"	"weapons/idle_active/wpfoly_ar_idle_4_01_v1.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Idle.Rifle_Move05"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.3"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"	"weapons/idle_active/wpfoly_ar_idle_4_02_v1.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Idle.Rifle_Move06"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.3"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"	"weapons/idle_active/wpfoly_ar_idle_4_03_v1.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"ShellEject.Pistol_9mm"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.4"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+    
+	"rndwave"
+	{
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_01.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_02.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_03.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_04.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_05.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_06.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_07.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_08.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_09.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_10.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_11.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_12.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_13.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_14.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_15.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_16.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_17.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_18.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_19.wav"
+		"wave"	"weapons/shell_eject/pistol/casing_eject_9mm_20.wav"
+	}
+    
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
