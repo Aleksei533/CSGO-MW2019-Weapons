@@ -5,7 +5,7 @@ A full-fledged weapons pack from Call of Duty: Modern Warfare 2019 ported to Cou
 
 Lutzz - CoD:MW to CS:GO arms rig, assets porting, sounds mixing, textures & phong;
 
-Stomatolog - Assets extraction, MIGI addons, textures, world models, icons;
+Stomatolog - Assets extraction, MIGI addons, textures, world models, icons, particles;
 
 CrazySlavModder - VScripts, inventory inspection, Custom Buymenu addon creator;
 
