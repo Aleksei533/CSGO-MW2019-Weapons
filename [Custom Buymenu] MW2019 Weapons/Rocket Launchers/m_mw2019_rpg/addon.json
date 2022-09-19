@@ -1,0 +1,21 @@
+{
+	"name": "[Modern Warfare] RPG-7",
+	"authors":
+	[
+		{
+			"name": "CrazySlavModder",
+			"social": "youtube.com/channel/UCikZnb4OWnQmwzNkZE6hBRA",
+			"role": "Base addon, third-person models, VScripts, inventory inspection"
+		},
+		{
+			"name": "Stomatolog",
+			"social": "youtube.com/c/StomatologCSS",
+			"role": "Sound scripts, assets porting"
+		},
+		{
+			"name": "Lutzz",
+			"role": "Assets porting, materials mixing"
+		}
+	],
+	"replacement": "Custom weapon"
+}
