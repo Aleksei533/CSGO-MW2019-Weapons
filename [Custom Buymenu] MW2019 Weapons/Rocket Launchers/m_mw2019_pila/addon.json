@@ -9,7 +9,7 @@
 		},
 		{
 			"name": "ZooL Smith",
-			"social": "youtube.com/c/ZoolSmith",
+			"social": "youtube.com/channel/UCOmYd1qy5qOyAXvK4p0LYfw",
 			"role": "Rocket Launcher VScript"
 		},
 		{
@@ -22,5 +22,5 @@
 			"role": "Assets porting, materials mixing"
 		}
 	],
-	"replacement": "Riot Shield"
+	"replacement": "Custom weapon"
 }

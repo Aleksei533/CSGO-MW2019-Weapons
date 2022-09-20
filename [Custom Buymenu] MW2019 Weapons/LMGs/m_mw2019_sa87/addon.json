@@ -1,27 +1,31 @@
 {
-	"name": "SA87 CoD:Modern Warfare 2019",
-	"author": "Stomatolog",
-	"social": "https://steamcommunity.com/id/StomatologCSS/",
+	"name": "[Modern Warfare] SA87",
 	"authors":
 	[
 		{
 			"name": "Stomatolog", 
-			"social": "https://steamcommunity.com/id/StomatologCSS/", 
-			"role": "Model extraction,MIGI addons,textures"
+			"social": "steamcommunity.com/id/StomatologCSS", 
+			"role": "Model extraction, MIGI addons, textures"
 		},
 		{
 			"name": "Activision", 
-			"social": "https://www.activision.com/", 
+			"social": "activision.com", 
 			"role": "Original assets"
 		},
 		{
 			"name": "Luttz", 
-			"role": "COD Rig for CSGO,scripts,mix sounds"
+			"role": "COD Rig for CSGO, scripts, mix sounds"
 		},
 		{
-			"name": "", 
-			"role": ""
+			"name": "CrazySlavModder", 
+			"social": "youtube.com/channel/UCikZnb4OWnQmwzNkZE6hBRA", 
+			"role": "VScripts, inventory inspection, custom buymenu creator"
+		},
+		{
+			"name": "AlbanyKnight", 
+			"social": "youtube.com/channel/UCP_QZdt3QqwZvdKUqpsrnqw", 
+			"role": "Weapon stats & balancing"
 		}
 	],
-	"replacement": "custom weapon"
+	"replacement": "Custom weapon"
 }

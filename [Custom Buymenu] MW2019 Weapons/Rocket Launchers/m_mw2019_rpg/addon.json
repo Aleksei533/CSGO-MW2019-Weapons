@@ -8,6 +8,11 @@
 			"role": "Base addon, third-person models, VScripts, inventory inspection"
 		},
 		{
+			"name": "ZooL Smith",
+			"social": "youtube.com/channel/UCOmYd1qy5qOyAXvK4p0LYfw",
+			"role": "Rocket Launcher VScript"
+		},
+		{
 			"name": "Stomatolog",
 			"social": "youtube.com/c/StomatologCSS",
 			"role": "Sound scripts, assets porting"

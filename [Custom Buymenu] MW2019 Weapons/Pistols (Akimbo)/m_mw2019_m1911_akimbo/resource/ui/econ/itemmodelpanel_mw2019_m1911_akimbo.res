@@ -46,6 +46,13 @@
 			"camera_orient"   "4.19 -139.42 0.00"
 			"orbit_pivot"     "18.10 0.30 -4.33"
 			"item_rotate"	  "y[-360 360] x[ 0 0 ]"
+			"shadow_light_color"         "[0.90 0.96 1.00]"
+			"shadow_light_brightness"    "3.0"
+			"light_directional_clearall" "1"
+			"light_directional_add"      "rgb{0.62 0.76 0.90} dir[-0.34 -0.90 -0.29] rot[0.0 0.0 0.0] flicker[0.00 0.00 0.00 0.00]"
+			"light_directional_add"      "rgb{0.48 0.78 0.84} dir[0.23 0.94 -0.24] rot[0.0 0.0 0.0] flicker[0.00 0.00 0.00 0.00]"
+			"light_directional_add"      "rgb{0.68 0.89 1.00} dir[0.97 0.02 -0.23] rot[0.0 0.0 0.0] flicker[0.00 0.00 0.00 0.00]"
+			"light_ambient"              "[0.20 0.34 0.46]"
 			"weapon_anim"		"inv"
 			"weapon_anim_loop"		"inv"
 		}
