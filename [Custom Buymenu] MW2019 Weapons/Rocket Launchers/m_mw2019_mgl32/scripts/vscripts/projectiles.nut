@@ -202,7 +202,7 @@ function MIGI_ProjectileCheck()
 			EntFireByHandle( projExp, "Kill", "", 0.01, null, null )
 			
 			if (travelsound != null)
-			self.EmitSound(travelsound)
+			self.StopSound(travelsound)
 			if (boomsound != null)
 			self.EmitSound(boomsound)
 			
@@ -297,7 +297,7 @@ function MIGI_MolotovCheck()
 			self.SetOwner( owner )
 			
 			if (travelsound != null)
-			self.EmitSound(travelsound)
+			self.StopSound(travelsound)
 			
 			EntFireByHandle( self, "AddOutput", "rendermode 10", 0, null, null )
 			return
