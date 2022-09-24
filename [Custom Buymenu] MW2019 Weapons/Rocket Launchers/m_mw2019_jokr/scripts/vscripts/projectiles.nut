@@ -51,11 +51,12 @@ projectile_RefireTime <- 0.01
 	projectileModel = null
 	projectileVMDL = null
 	projectileExpSound = null
+	projectileTravelSound = null
 	readyToFireFunc = null
 	
 	constructor(timeout, refireDelay, movespeed, iconname, magnitude, radius, MDLscale, inaccuracy_air, inaccuracy_crouch, inaccuracy_move,
 	inaccuracy_stand, lunge_rangeMax, lunge_rangeMin, lunge_upFix, lunge_speed, lunge_upangoffset, gravity, timedDetonation, 
-	projectileName, projectileClass, projectileModel, projectileVMDL, projectileExpSound, readyToFireFunc)
+	projectileName, projectileClass, projectileModel, projectileVMDL, projectileExpSound, projectileTravelSound, readyToFireFunc)
 	{
 		this.timeout = timeout;
 		if (refireDelay == null || refireDelay <= 0.00)
@@ -109,6 +110,7 @@ projectile_RefireTime <- 0.01
 		this.projectileModel = projectileModel;
 		this.projectileVMDL = projectileVMDL;
 		this.projectileExpSound = projectileExpSound;
+		this.projectileTravelSound = projectileTravelSound;
 		this.readyToFireFunc = readyToFireFunc;
 		
 		migi_ProjWeapons.append(this);
@@ -138,6 +140,8 @@ function MIGI_ProjectileCheck()
 	projectileEnt.__KeyValueFromFloat("modelscale", projectileThing.MDLscale)
 	projectileEnt.SetAngles( ang.x, ang.y, ang.z )
 	projectileEnt.SetOwner(projectileHandle)
+	if (projectileThing.projectileTravelSound != null)
+		projectileEnt.EmitSound(projectileThing.projectileTravelSound)
 	EntFireByHandle(projectileEnt, "SetAnimationNoReset", "idle", 0, null, null)
 	
 	projectileEnt.ValidateScriptScope()
@@ -169,6 +173,7 @@ function MIGI_ProjectileCheck()
 	scope.magnitude <- projectileThing.magnitude
 	scope.radius <- projectileThing.radius
 	scope.boomsound <- projectileThing.projectileExpSound
+	scope.travelsound <- projectileThing.projectileTravelSound
 	scope.projClass <- projectileThing.projectileClass
 	scope.ticks <- 0
 	scope.gravity <- projectileThing.gravity
@@ -196,6 +201,8 @@ function MIGI_ProjectileCheck()
 			EntFireByHandle( projExp, "Explode", "", 0, null, null )
 			EntFireByHandle( projExp, "Kill", "", 0.01, null, null )
 			
+			if (travelsound != null)
+			self.EmitSound(travelsound)
 			if (boomsound != null)
 			self.EmitSound(boomsound)
 			
@@ -235,6 +242,8 @@ function MIGI_MolotovCheck()
 	projectileEnt.__KeyValueFromFloat("modelscale", projectileThing.MDLscale)
 	projectileEnt.SetAngles( ang.x, ang.y, ang.z )
 	projectileEnt.SetOwner(projectileHandle)
+	if (projectileThing.projectileTravelSound != null)
+		projectileEnt.EmitSound(projectileThing.projectileTravelSound)
 	EntFireByHandle(projectileEnt, "InitializeSpawnFromWorld", "", 0, null, null)
 	EntFireByHandle(projectileEnt, "SetAnimationNoReset", "idle", 0, null, null)
 	
@@ -267,6 +276,7 @@ function MIGI_MolotovCheck()
 	scope.magnitude <- projectileThing.magnitude
 	scope.radius <- projectileThing.radius
 	scope.boomsound <- projectileThing.projectileExpSound
+	scope.travelsound <- projectileThing.projectileTravelSound
 	scope.projClass <- projectileThing.projectileClass
 	scope.ticks <- 0
 	scope.gravity <- projectileThing.gravity
@@ -285,6 +295,10 @@ function MIGI_MolotovCheck()
 		{
 			EntFireByHandle( self, "AddOutput", "classname " + iconname, 0, null, null )
 			self.SetOwner( owner )
+			
+			if (travelsound != null)
+			self.EmitSound(travelsound)
+			
 			EntFireByHandle( self, "AddOutput", "rendermode 10", 0, null, null )
 			return
 		}
@@ -407,6 +421,8 @@ function MIGI_ProjectileWpnCheck()
 			
 			if (projVMDL.projectileModel != null)
 				ply.PrecacheModel(projVMDL.projectileModel)
+			if (projVMDL.projectileTravelSound != null)
+				ply.PrecacheScriptSound(projVMDL.projectileTravelSound)
 			
 			if( projVMDL.readyToFireFunc(vm) == true )
 			{

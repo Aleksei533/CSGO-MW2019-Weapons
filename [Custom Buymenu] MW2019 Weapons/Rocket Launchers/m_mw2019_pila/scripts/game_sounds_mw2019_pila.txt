@@ -620,3 +620,96 @@
 		}
 	}
 }
+
+"Weapon_PILA.Explode"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.9"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_79dB"
+    
+	"rndwave"
+	{
+		"wave"	")weapons/mw2019_rocket/rocket_expl_swt_01.wav"
+		"wave"	")weapons/mw2019_rocket/rocket_expl_swt_02.wav"
+		"wave"	")weapons/mw2019_rocket/rocket_expl_swt_03.wav"
+		"wave"	")weapons/mw2019_rocket/rocket_expl_swt_04.wav"
+	}
+
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			
+			"import_stack" "CS_distance_weapon_start"
+			
+			"play_distant_version_1"
+			{
+				"entry_name" "Weapon_JOKR.ExplodeDistant"
+			}
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "Weapons1"
+			}
+			"volume_distance_xfade"
+			{
+				"input_map_min" "0.0"
+				"input_map_max" "1.0"
+			}
+		}
+	}
+	
+}
+
+"Weapon_PILA.ExplodeDistant"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.8"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_94dB"
+
+	"rndwave"
+	{
+		"wave"	")weapons/mw2019_rocket/rocket_expl_far_01.wav"
+		"wave"	")weapons/mw2019_rocket/rocket_expl_far_02.wav"
+		"wave"	")weapons/mw2019_rocket/rocket_expl_far_03.wav"
+		"wave"	")weapons/mw2019_rocket/rocket_expl_far_04.wav"
+	}
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_weapon"
+			"mixer"
+			{
+				"mixgroup" "DistWeapons"
+			}
+
+		}
+	}
+	
+}
+
+"Weapon_PILA.Travel"
+{
+	"channel"		"CHAN_BODY"
+	"volume"		"0.8"
+	"pitch"			"100"
+	"soundlevel"	"SNDLVL_70dB"
+	"wave"			"~weapons/pila/move_gromeo_proj_flame.wav"
+}

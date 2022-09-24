@@ -1,85 +1,18 @@
-sierra552_MDL <- "models/weapons/v_ar_grau556.mdl"
-sierra552_sequence <- 7
+if (!("migi_initDeployWeapons" in this))
+	migi_allocateEntityScope("initial_deploy.nut")
 
 function sierra552_GetAmmoState(vm)
 {
 	local ammo_track = vm.LookupAttachment("a_flag");
 	local ammo_track_start = vm.LookupAttachment("a_flag_start");
-	local ammo_track_state = "full";
+	local ammo_track_state = false;
 		
     local org = vm.GetAttachmentOrigin(ammo_track) - vm.GetOrigin();
     local org_base = vm.GetAttachmentOrigin(ammo_track_start) - vm.GetOrigin();
 	local org_dist = org - org_base;
-	if (org_dist.z > 0.8 && org_dist.z < 1.2) ammo_track_state = "empty";
+	if (org_dist.z > 0.8 && org_dist.z < 1.2) ammo_track_state = true;
 	
 	return ammo_track_state;
 }
 
-function sierra552_deployCheck()
-{
-	// Find all viewmodels
-	local vm = null
-	while( vm = Entities.FindByClassname(vm, "predicted_viewmodel") )
-	{
-		local ply = vm.GetMoveParent()
-		if (!ply || !ply.IsValid()) continue;
-		
-		ply.ValidateScriptScope();
-		local draw_scope = ply.GetScriptScope();
-		if(!draw_scope.rawin("sierra552_owned"))
-		{
-			draw_scope.sierra552_FD <- false
-			draw_scope.sierra552_owned <- false
-		}
-		
-		draw_scope.sierra552_owned = false;
-		local wpnInst = null;
-		while (wpnInst = Entities.FindByModel(wpnInst, sierra552_MDL))
-		{
-			if (wpnInst.GetClassname() == "weapon_deagle" && wpnInst.GetOwner() == ply)
-			{
-				draw_scope.sierra552_owned = true;
-				break;
-			}
-		}
-		
-		if (ply.GetHealth() < 1) draw_scope.sierra552_owned = false;
-		if (draw_scope.sierra552_owned == false) draw_scope.sierra552_FD = false
-		
-		// Not the weapon we're looking for
-		if(vm.GetModelName() != sierra552_MDL)
-			continue
-		
-		// initial deploy check
-		ply.ValidateScriptScope()
-		local draw_scope = ply.GetScriptScope()
-		if( !draw_scope.rawin("sierra552_FD") )
-		{
-			draw_scope.sierra552_FD <- false
-			draw_scope.sierra552_owned <- false
-		}
-		
-		if (draw_scope.sierra552_FD == false)
-		{
-			if (sierra552_GetAmmoState(vm) != "empty") vm.__KeyValueFromInt("sequence", sierra552_sequence)
-			draw_scope.sierra552_FD = true
-		}
-	}
-}
-
-// Call the think function repetitively
-deployTimerEnt <- Entities.FindByName(null, "MIGIdeployTimer")
-if (deployTimerEnt == null)
-{
-	MIGI_deploy_timer <- Entities.CreateByClassname("logic_timer")
-	EntFireByHandle(MIGI_deploy_timer, "AddOutput", "targetname MIGIdeployTimer", 0, null, null)
-	EntFireByHandle(MIGI_deploy_timer, "AddOutput", "RefireTime 0.01", 0, null, null)
-	EntFireByHandle(MIGI_deploy_timer, "AddOutput", "classname move_rope", 0, null, null)
-	EntFireByHandle(MIGI_deploy_timer, "AddOutput", "OnTimer "+self.GetName()+":RunScriptCode:sierra552_deployCheck():0:-1", 0, null, null)
-	EntFireByHandle(MIGI_deploy_timer, "Enable", "", 0.1, null, null)
-}
-else
-{
-	EntFireByHandle(deployTimerEnt, "AddOutput", "OnTimer "+self.GetName()+":RunScriptCode:sierra552_deployCheck():0:-1", 0, null, null)
-	EntFireByHandle(deployTimerEnt, "Enable", "", 0.1, null, null)
-}
+MIGI_InitDeployWeapon("models/weapons/v_ar_grau556.mdl", "weapon_deagle", [7], this.sierra552_GetAmmoState, null)
