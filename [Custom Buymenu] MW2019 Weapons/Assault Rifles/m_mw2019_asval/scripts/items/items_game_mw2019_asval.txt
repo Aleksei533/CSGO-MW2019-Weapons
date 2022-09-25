@@ -6,10 +6,10 @@
 		{
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"
-			"item_name"		"ASVAL"
+			"item_name"		"AS VAL"
 			"item_description"		"Russia rifle ASVAL"
 			"item_rarity"		"rare"
-			"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/asval"
 			"model_player"		"models/weapons/v_ar_asval.mdl"
 			"model_world"		"models/weapons/w_ar_asval.mdl"
 			"model_dropped"		"models/weapons/w_ar_asval_dropped.mdl"
@@ -25,7 +25,7 @@
 			{
 				//"icon display model"		"models/weapons/w_rif_m4a1_s_icon.mdl"
 				"magazine model"		"models/weapons/w_ar_asval_mag.mdl"
-				"primary reserve ammo max"		"75"
+				"primary reserve ammo max"		"60"
 				"is full auto"		"1"
 				"time between burst shots"		"0.090000"
 				"has silencer"		"2"

@@ -6,10 +6,10 @@
 		{
 			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
-			"item_name"		"Mp7"
-			"item_description"		"Mp7"
+			"item_name"		"MP7"
+			"item_description"		"MP7"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/mp7"
 			"model_player"		"models/weapons/v_sm_mp7.mdl"
 			"model_world"		"models/weapons/w_sm_mp7.mdl"
 			"model_dropped"		"models/weapons/w_sm_mp7_dropped.mdl"

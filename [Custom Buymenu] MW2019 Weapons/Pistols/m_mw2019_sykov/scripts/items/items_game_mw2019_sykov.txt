@@ -9,7 +9,7 @@
 			"item_name"		"Sykov"
 			"item_description"		"Sykov russian pistol PM"
 			"item_rarity"		"uncommon"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/sykov"
 			"model_player"		"models/weapons/v_pi_sykov.mdl"
 			"model_world"		"models/weapons/w_pist_sykov.mdl"
 			"model_dropped"		"models/weapons/w_pist_sykov_dropped.mdl"
@@ -23,10 +23,11 @@
 			}
 			"attributes"
 			{
+				"cycletime"		"0.181818"
 				"cycletime when in burst mode"		"0.600000"
 				"time between burst shots"		"0.050000"
 				"magazine model"		"models/weapons/w_pist_sykov_mag.mdl"
-				"primary reserve ammo max"		"50"
+				"primary reserve ammo max"		"36"
 				"tracer frequency alt"		"1"
 				"inaccuracy jump initial"		"96.620003"
 				"inaccuracy jump"		"87.870003"

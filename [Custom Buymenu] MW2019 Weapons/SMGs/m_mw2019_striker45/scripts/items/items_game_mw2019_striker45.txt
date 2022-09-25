@@ -6,10 +6,10 @@
 		{
 			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
-			"item_name"		"strike45"
-			"item_description"		"strike45"
+			"item_name"		"Striker-45"
+			"item_description"		"Striker-45"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/striker45"
 			"model_player"		"models/weapons/v_sm_striker45.mdl"
 			"model_world"		"models/weapons/w_sm_striker45.mdl"
 			"model_dropped"		"models/weapons/w_sm_striker45_dropped.mdl"

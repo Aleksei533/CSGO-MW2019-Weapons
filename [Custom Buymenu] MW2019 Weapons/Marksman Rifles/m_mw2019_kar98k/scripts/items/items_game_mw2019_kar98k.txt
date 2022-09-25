@@ -9,6 +9,7 @@
 			"item_name"		"Kar98k"
 			"item_description"		"kar98k"
 			"item_rarity"		"rare"
+			"image_inventory"		"mw2019_weapons/kar98k"
 			"model_player"		"models/weapons/v_sn_kar98k.mdl"
 			"model_world"		"models/weapons/w_sn_kar98k.mdl"
 			"model_dropped"		"models/weapons/w_sn_kar98k_dropped.mdl"
@@ -35,7 +36,7 @@
 			}
 			"attributes"
 			{
-				"primary reserve ammo max"		"90"
+				"primary reserve ammo max"		"20"
 				"inaccuracy jump initial"		"208.720001"
 				"inaccuracy jump"		"5.720000"
 				"inaccuracy jump alt"		"5.720000"

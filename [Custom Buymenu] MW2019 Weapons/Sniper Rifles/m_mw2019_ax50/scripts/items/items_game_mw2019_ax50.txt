@@ -9,7 +9,7 @@
 			"item_name"		"AX-50"
 			"item_description"		"AX-50"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/ax50"
 			"model_player"		"models/weapons/v_sn_ax50.mdl"
 			"model_world"		"models/weapons/w_sn_ax50.mdl"
 			"model_dropped"		"models/weapons/w_sn_ax50_dropped.mdl"

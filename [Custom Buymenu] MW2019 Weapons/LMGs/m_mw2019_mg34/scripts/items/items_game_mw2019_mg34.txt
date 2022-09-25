@@ -9,7 +9,7 @@
 			"item_name"		"MG34"
 			"item_description"		"MG34"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/mg34"
 			"model_player"		"models/weapons/v_lm_mg34.mdl"
 			"model_world"		"models/weapons/w_lm_mg34.mdl"
 			"model_dropped"		"models/weapons/w_lm_mg34_dropped.mdl"
@@ -23,7 +23,7 @@
 			}
 			"attributes"
 			{
-				"primary reserve ammo max"		"300"
+				"primary reserve ammo max"		"100"
 				"magazine model"		"models/weapons/w_lm_mg34_mag.mdl"
 				"attack movespeed factor"		"0.500000"
 				"inaccuracy jump initial"		"116.290001"

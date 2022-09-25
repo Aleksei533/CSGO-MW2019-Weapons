@@ -6,10 +6,10 @@
 		{
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"
-			"item_name"		"AK47"
-			"item_description"		"AK47"
+			"item_name"		"AK-47"
+			"item_description"		"AK-47 MW2019"
 			"item_rarity"		"uncommon"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/ak47"
 			"model_player"		"models/weapons/v_ar_ak47.mdl"
 			"model_world"		"models/weapons/w_ar_ak47.mdl"
 			"model_dropped"		"models/weapons/w_ar_ak47_dropped.mdl"

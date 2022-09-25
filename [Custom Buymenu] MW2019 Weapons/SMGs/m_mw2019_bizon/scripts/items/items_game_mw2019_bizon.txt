@@ -6,10 +6,10 @@
 		{
 			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
-			"item_name"		"Bizon Modern Warfare"
+			"item_name"		"PP-19 Bizon"
 			"item_description"		"Bizon Modern Warfare"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/bizon"
 			"model_player"		"models/weapons/v_sm_bizon.mdl"
 			"model_world"		"models/weapons/w_sm_bizon.mdl"
 			"model_dropped"		"models/weapons/w_sm_bizon_dropped.mdl"

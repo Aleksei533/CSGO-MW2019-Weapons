@@ -87,7 +87,7 @@
 			"prefab"		"projectile_launcher"
 			"item_name"		"Strela-P"
 			"item_description"		"84mm recoilless rifle lobs an explosive projectile at a very high velocity. The unguided armor piercing round has a low explosive yield, but is devastating against vehicles on contact."
-			"image_inventory"		"econ/weapons/base_weapons/weapon_strela"
+			"image_inventory"		"mw2019_weapons/strela"
 			"model_player"		"models/weapons/v_la_strela-p.mdl"
 			"model_world"		"models/weapons/w_la_strela-p.mdl"
 			"model_dropped"		"models/weapons/w_la_strela-p_dropped.mdl"

@@ -9,7 +9,7 @@
 			"item_name"		"Kilo 141"
 			"item_description"		"Kilo 141"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/kilo141"
 			"model_player"		"models/weapons/v_ar_kilo141.mdl"
 			"model_world"		"models/weapons/w_ar_kilo141.mdl"
 			"model_dropped"		"models/weapons/w_ar_kilo141_dropped.mdl"
@@ -23,7 +23,7 @@
 			}
 			"attributes"
 			{
-				//"magazine model"		"models/weapons/w_ar_kilo141_mag.mdl"
+				"magazine model"		"models/weapons/w_ar_kilo141_mag.mdl"
                 "primary reserve ammo max"		"90"
 				"recovery time crouch"		"0.242100"
 				"recovery time crouch final"		"0.332888"

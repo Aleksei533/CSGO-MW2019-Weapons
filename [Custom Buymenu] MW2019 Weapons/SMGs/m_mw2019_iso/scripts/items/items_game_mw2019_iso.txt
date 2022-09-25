@@ -9,7 +9,7 @@
 			"item_name"		"ISO"
 			"item_description"		"ISO"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/iso"
 			"model_player"		"models/weapons/v_sm_iso.mdl"
 			"model_world"		"models/weapons/w_sm_iso.mdl"
 			"model_dropped"		"models/weapons/w_sm_iso_dropped.mdl"

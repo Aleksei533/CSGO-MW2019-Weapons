@@ -6,7 +6,7 @@
 		{
 			"prefab"		"secondary"
 			"item_class"		"weapon_deagle"
-			"item_name"		"Akimbo Revolver 357"
+			"item_name"		"Revolver 357 | Akimbo"
 			"item_description"		"Akimbo Revolver 357"
 			"item_rarity"		"uncommon"
 			"image_inventory"		"mw2019_weapons/357_akimbo"
@@ -29,7 +29,7 @@
 			   "is revolver" "1"
 			   "aimsight capable"		"0"
 				"is full auto"		"0"
-				"in game price"		"400"
+				"in game price"		"1500"
 				"primary clip size"		"12"
 				"primary default clip size"		"-1"
 				"primary reserve ammo max"		"24"

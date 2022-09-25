@@ -9,6 +9,7 @@
 			"item_name"		"Bruen MK9"
 			"item_description"		"Bruen MK9"
 			"item_rarity"		"rare"
+			"image_inventory"		"mw2019_weapons/bruenmk9"
 			"model_player"		"models/weapons/v_lm_bruenmk9.mdl"
 			"model_world"		"models/weapons/w_lm_bruenmk9.mdl"
 			"model_dropped"		"models/weapons/w_lm_bruenmk9_dropped.mdl"

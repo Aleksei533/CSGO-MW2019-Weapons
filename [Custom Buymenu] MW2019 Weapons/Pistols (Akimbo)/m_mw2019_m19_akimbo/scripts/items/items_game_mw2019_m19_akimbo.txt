@@ -9,7 +9,7 @@
 			"item_name"		"M19 | Akimbo"
 			"item_description"		"m19 Akimbo"
 			"item_rarity"		"uncommon"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/m19_akimbo"
 			"model_player"		"models/weapons/v_pi_m19_akimbo.mdl"
 			"model_world"		"models/weapons/w_pi_m19_akimbo.mdl"
 			"model_dropped"		"models/weapons/w_pi_m13_dropped_akimbo.mdl"

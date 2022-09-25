@@ -87,7 +87,7 @@
 			"prefab"		"projectile_launcher"
 			"item_name"		"JOKR"
 			"item_description"		"Fire and forget lock-on portable missile launcher with a large explosive yield. Infrared guided missiles take a top-attack trajectorym, ensuring destruction of heavily armored vehicles."
-			"image_inventory"		"econ/weapons/base_weapons/weapon_jokr"
+			"image_inventory"		"mw2019_weapons/jokr"
 			"model_player"		"models/weapons/v_la_jokr.mdl"
 			"model_world"		"models/weapons/w_la_jokr.mdl"
 			"model_dropped"		"models/weapons/w_la_jokr_dropped.mdl"

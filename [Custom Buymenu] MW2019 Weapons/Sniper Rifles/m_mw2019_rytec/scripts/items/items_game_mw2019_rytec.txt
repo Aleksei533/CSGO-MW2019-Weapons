@@ -6,10 +6,10 @@
 		{
 			"prefab"		"sniper_rifle"
 			"item_class"		"weapon_deagle"
-			"item_name"		"Rytec"
-			"item_description"		"Rytec"
+			"item_name"		"Rytec AMR"
+			"item_description"		"Rytec AMR"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/rytec"
 			"model_player"		"models/weapons/v_sn_rytec.mdl"
 			"model_world"		"models/weapons/w_sn_rytec.mdl"
 			"model_dropped"		"models/weapons/w_sn_rytec_dropped.mdl"

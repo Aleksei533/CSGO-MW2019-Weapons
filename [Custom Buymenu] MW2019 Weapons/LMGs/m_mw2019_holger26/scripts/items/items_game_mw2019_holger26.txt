@@ -6,10 +6,10 @@
 		{
 			"prefab"		"machinegun"
 			"item_class"		"weapon_deagle"
-			"item_name"		"Holger"
-			"item_description"		"Holger"
+			"item_name"		"Holger-26"
+			"item_description"		"Holger-26"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/holger26"
 			"model_player"		"models/weapons/v_lm_holger26.mdl"
 			"model_world"		"models/weapons/w_lm_holger26.mdl"
 			"model_dropped"		"models/weapons/w_lm_holger26_dropped.mdl"

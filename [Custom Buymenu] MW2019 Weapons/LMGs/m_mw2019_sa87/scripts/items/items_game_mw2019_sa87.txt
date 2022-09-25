@@ -9,7 +9,7 @@
 			"item_name"		"SA87"
 			"item_description"		"SA87"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/sa87"
 			"model_player"		"models/weapons/v_lm_sa87.mdl"
 			"model_world"		"models/weapons/w_lm_sa87.mdl"
 			"model_dropped"		"models/weapons/w_lm_sa87_dropped.mdl"
@@ -23,7 +23,7 @@
 			}
 			"attributes"
 			{
-				"primary reserve ammo max"		"200"
+				"primary reserve ammo max"		"90"
 				"inaccuracy jump initial"		"118.269997"
 				"magazine model"		"models/weapons/w_lm_sa87_mag.mdl"
 				"inaccuracy jump"		"279.470001"
@@ -39,7 +39,7 @@
 				"damage"		"32"
 				"range"		"8192"
 				"range modifier"		"0.970000"
-				"cycletime"		"0.1"
+				"cycletime"		"0.084986"
 				"time to idle"		"1.600000"
 				"flinch velocity modifier large"		"0.400000"
 				"flinch velocity modifier small"		"0.550000"

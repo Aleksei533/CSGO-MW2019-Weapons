@@ -9,7 +9,7 @@
 			"item_name"		"CX-9"
 			"item_description"		"cx9"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/cx9"
 			"model_player"		"models/weapons/v_sm_cx9.mdl"
 			"model_world"		"models/weapons/w_sm_cx9.mdl"
 			"model_dropped"		"models/weapons/w_sm_cx9_dropped.mdl"

@@ -9,7 +9,7 @@
 			"item_name"		"PKM"
 			"item_description"		"PKM"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/pkm"
 			"model_player"		"models/weapons/v_lm_pkm.mdl"
 			"model_world"		"models/weapons/w_lm_pkm.mdl"
 			"model_dropped"		"models/weapons/w_lm_pkm_dropped.mdl"

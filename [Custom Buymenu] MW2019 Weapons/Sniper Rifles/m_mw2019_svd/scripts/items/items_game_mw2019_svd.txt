@@ -9,6 +9,7 @@
 			"item_name"		"Dragunov"
 			"item_description"		"Dragunov"
 			"item_rarity"		"rare"
+			"image_inventory"		"mw2019_weapons/svd"
 			"model_player"		"models/weapons/v_sn_svd.mdl"
 			"model_world"		"models/weapons/w_sn_svd.mdl"
 			"model_dropped"		"models/weapons/w_sn_svd_dropped.mdl"

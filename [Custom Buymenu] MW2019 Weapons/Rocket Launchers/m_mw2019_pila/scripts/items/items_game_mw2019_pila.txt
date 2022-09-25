@@ -87,7 +87,7 @@
 			"prefab"		"projectile_launcher"
 			"item_name"		"PILA"
 			"item_description"		"Portable infrared surface-to-air missile with a free-fire option. Self propelled missiles has a higher speed, and moderate explosive yield."
-			"image_inventory"		"econ/weapons/base_weapons/weapon_pila"
+			"image_inventory"		"mw2019_weapons/pila"
 			"model_player"		"models/weapons/v_la_pila.mdl"
 			"model_world"		"models/weapons/w_la_pila.mdl"
 			"model_dropped"		"models/weapons/w_la_pila_dropped.mdl"

@@ -87,7 +87,7 @@
 			"prefab"		"projectile_launcher"
 			"item_name"		"MGL-32"
 			"item_description"		"Revolving semi-auto grenade launcher with enough ammo capacity to raise hell."
-			"image_inventory"		"econ/weapons/base_weapons/weapon_mgl32"
+			"image_inventory"		"mw2019_weapons/mgl32"
 			"model_player"		"models/weapons/v_la_mgl32.mdl"
 			"model_world"		"models/weapons/w_la_mgl32.mdl"
 			"model_dropped"		"models/weapons/w_la_mgl32_dropped.mdl"

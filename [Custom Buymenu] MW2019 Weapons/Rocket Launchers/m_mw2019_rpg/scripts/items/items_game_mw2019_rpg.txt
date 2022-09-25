@@ -87,7 +87,7 @@
 			"prefab"		"projectile_launcher"
 			"item_name"		"RPG-7"
 			"item_description"		"Unguided, self-propelled rocket launcher fires a slower projectile with a high-explosive yield."
-			"image_inventory"		"econ/weapons/base_weapons/weapon_rpg"
+			"image_inventory"		"mw2019_weapons/rpg"
 			"model_player"		"models/weapons/v_la_rpg.mdl"
 			"model_world"		"models/weapons/w_la_rpg.mdl"
 			"model_dropped"		"models/weapons/w_la_rpg_dropped.mdl"

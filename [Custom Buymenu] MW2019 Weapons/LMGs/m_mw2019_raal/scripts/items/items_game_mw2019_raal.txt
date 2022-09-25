@@ -6,10 +6,10 @@
 		{
 			"prefab"		"machinegun"
 			"item_class"		"weapon_deagle"
-			"item_name"		"RAAL-MG"
+			"item_name"		"RAAL MG"
 			"item_description"		"raal"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/raal"
 			"model_player"		"models/weapons/v_lm_raal.mdl"
 			"model_world"		"models/weapons/w_lm_raal.mdl"
 			"model_dropped"		"models/weapons/w_lm_raal_dropped.mdl"
