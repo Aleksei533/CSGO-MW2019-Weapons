@@ -432,6 +432,33 @@
 	}
 }
 
+"Weapon_FAMAS.Raise_BoltRelease"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			"weapons/famas/wfoly_ar_falpha_raise_boltrelease.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
 "Weapon_FAMAS.Reload_Empty_Chamber_01"
 {
 	"channel"		"CHAN_STATIC"
