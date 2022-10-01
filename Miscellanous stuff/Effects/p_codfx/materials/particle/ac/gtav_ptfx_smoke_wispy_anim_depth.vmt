@@ -1,0 +1,9 @@
+"SpriteCard"
+{
+	"$basetexture" "particle/Ac/gtav_ptfx_smoke_wispy_anim"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$translucent" "1"
+	"$depthblend"  "1"
+	"$depthblendscale"  "8"
+}

@@ -1,0 +1,11 @@
+"Spritecard"
+{
+	"$basetexture" "particle/Ac/mw2019_vfx_fluid_squib_front_anim_3_c_shaded"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$translucent" "1"
+//      "$additive" "1"
+	"$depthblend"  "1"
+	"$depthblendscale"  "6"
+	"$blendframes" "1"
+}

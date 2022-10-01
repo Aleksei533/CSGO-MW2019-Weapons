@@ -1,0 +1,7 @@
+"Spritecard"
+{
+	"$basetexture" "particle/Ac/gtav_explosion_fireball_rgba_edit"
+	"$translucent" 1
+//             "$additive" 1
+	"$overbrightfactor" "1"
+}

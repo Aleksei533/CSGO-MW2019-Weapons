@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/ex_embers"
+	"$additive" "1"
+	"$vertexcolor" 1
+	"$vertexalpha" "1"
+	$OVERBRIGHTFACTOR 2
+}

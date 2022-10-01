@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	$basetexture "particle/Ac/gtav_explosion_fireball"
+	$additive 1
+	$OVERBRIGHTFACTOR 1
+	$DEPTHBLEND 1
+        $blendframes 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$translucent" "1"
+}

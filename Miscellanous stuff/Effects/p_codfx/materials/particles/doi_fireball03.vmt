@@ -1,0 +1,16 @@
+"SpriteCard"
+{
+	$basetexture "particles/doi_fireball03"
+	$SEQUENCE_BLEND_MODE 1 //2
+	$MAXLUMFRAMEBLEND1 0
+	$MAXLUMFRAMEBLEND2 1
+	"$depthblend" 1
+	"$depthblendscale" 50
+	$overbrightfactor 3
+	$STARTFADESIZE .4
+	$ENDFADESIZE 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$nocull" 1
+	"$additive" 1
+}

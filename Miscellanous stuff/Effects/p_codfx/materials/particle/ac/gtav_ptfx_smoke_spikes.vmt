@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "particle/Ac/gtav_ptfx_smoke_spikes"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$translucent" "1"
+}

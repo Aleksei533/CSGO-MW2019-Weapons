@@ -1,0 +1,10 @@
+"UnlitGeneric"
+//"SpriteCard"
+{
+	"$basetexture" "particle/Ac/mw2019_vfx_fluid_splash_anim_1_c_shaded_edit_a"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$alphatest" "1"
+	"$alpha" "1"
+	"$alphatestreference" "0.4"
+}

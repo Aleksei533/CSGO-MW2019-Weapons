@@ -1,0 +1,11 @@
+"SpriteCard"
+{
+	$BASETEXTURE "particles/doi_blood02.vtf"
+	$DEPTHBLEND 1
+	$STARTFADESIZE .9
+	$overbrightfactor 2
+	$ENDFADESIZE 1.5
+	$BLENDFRAMES 1
+	$MINSIZE .005
+	$vertexfogamount 1.0
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "particle/Ac/mw2019_vfx_fluid_squib_side_anim_4_c_shaded"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$translucent" "1"
+}
