@@ -25,6 +25,7 @@
 			{
 				"primary reserve ammo max"		"32"
 				"magazine model"		"models/weapons/w_sh_vlkrogue_mag.mdl"
+				"aimsight lens mask"		"models/shells/shell_vlk.mdl"
 				"is full auto"		"1"
 				"inaccuracy jump initial"		"100.379997"
 				"inaccuracy jump"		"130.830002"

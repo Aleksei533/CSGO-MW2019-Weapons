@@ -26,6 +26,7 @@
 			"attributes"
 			{
 				"magazine model"		"models/weapons/w_sn_ax50_mag.mdl"
+				"aimsight lens mask"		"models/shells/shell_50cal.mdl"
 				"unzoom after shot"		"1"
 				"primary reserve ammo max"		"30"
 				"inaccuracy jump initial"		"172.860001"

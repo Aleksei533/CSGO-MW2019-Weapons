@@ -24,6 +24,7 @@
 			"attributes"
 			{
 				"magazine model"		"models/weapons/w_ar_m4a1_mag.mdl"
+				"aimsight lens mask"		"models/shells/shell_rifle.mdl"
                 "primary reserve ammo max"		"90"
 				"recovery time crouch"		"0.242100"
 				"recovery time crouch final"		"0.332888"
@@ -83,8 +84,8 @@
 				"muzzle_flash_effect_3rd_person"		"AC_muzzle_m4a1"
 				"heat_effect"		"AC_muzzle_m4a1_smoke"
 				"addon_location"		"primary_rifle"
-				"eject_brass_effect"		"weapon_shell_casing_rifle"
-				"tracer_effect"		"weapon_tracers_assrifle"
+				"eject_brass_effect"		"cod_shell_m4a1"
+				"tracer_effect"		"pb_ins2_muzzleflash_tracer"
 				"weapon_type"		"Rifle"
 				"player_animation_extension"		"m4"
 				"primary_ammo"		"BULLET_PLAYER_556MM"

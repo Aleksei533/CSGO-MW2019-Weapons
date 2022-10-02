@@ -15,4 +15,4 @@ function mike9_GetAmmoState(vm)
 	return ammo_track_state;
 }
 
-MIGI_InitDeployWeapon("models/weapons/v_pi_renetti.mdl", "weapon_deagle", [6], this.mike9_GetAmmoState, null)
+MIGI_InitDeployWeapon("models/weapons/v_pi_renetti.mdl", "weapon_deagle", [6], "basic", this.mike9_GetAmmoState)

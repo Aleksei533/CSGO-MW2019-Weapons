@@ -25,6 +25,7 @@
 			{
 				"primary reserve ammo max"		"150"
 				"magazine model"		"models/weapons/w_lm_finn_mag.mdl"
+				"aimsight lens mask"		"models/shells/shell_rifle.mdl"
 				"inaccuracy jump initial"		"118.269997"
 				"inaccuracy jump"		"279.470001"
 				"heat per shot"		"0.350000"
@@ -83,7 +84,7 @@
 				"muzzle_flash_effect_3rd_person"		"AC_muzzle_finn"
 				"heat_effect"		"AC_muzzle_finn_smoke"
 				"addon_location"		"primary_mg"
-				"eject_brass_effect"		"weapon_shell_casing_rifle"
+				"eject_brass_effect"		"cod_shell_rifle"
 				"tracer_effect"		"pb_ins2_muzzleflash_tracer"
 				"weapon_type"		"Machinegun"
 				"player_animation_extension"		"m249"

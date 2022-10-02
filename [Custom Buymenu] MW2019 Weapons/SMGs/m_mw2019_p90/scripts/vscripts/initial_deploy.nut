@@ -11,13 +11,13 @@
 	weaponEmptyCheckFunc = null;
 	weaponCustomCheckFunc = null;
 	
-	constructor(weaponMDL, weaponClass, weaponSequence, weaponEmptyCheckFunc, weaponCustomCheckFunc)
+	constructor(weaponMDL, weaponClass, weaponSequence, weaponCustomCheckFunc, weaponEmptyCheckFunc)
 	{
 		this.weaponMDL = weaponMDL;
 		this.weaponClass = weaponClass;
 		this.weaponSequence = weaponSequence;
-		this.weaponEmptyCheckFunc = weaponEmptyCheckFunc;
 		this.weaponCustomCheckFunc = weaponCustomCheckFunc;
+		this.weaponEmptyCheckFunc = weaponEmptyCheckFunc;
 		
 		migi_initDeployWeapons.append(this);
 	}
@@ -38,6 +38,30 @@
 	return -1;
 }
 
+function MIGI_BasicDeployCheck(vm)
+{
+	local curSequenceIndex = 0;
+	local VMDL = vm.GetModelName();
+	local curWpnIndex = MIGI_InitDeploy_GetWpnIndex(VMDL);
+	if (curWpnIndex < 0) return;
+	
+	local curWpn = migi_initDeployWeapons[curWpnIndex];
+	local owner = vm.GetMoveParent();
+	if (!owner || !owner.IsValid() || owner.GetHealth() < 1) 
+		return;
+	
+	owner.ValidateScriptScope();
+	local draw_scope = owner.GetScriptScope();
+	if (draw_scope.plyWeapon_FD[curWpnIndex] == false)
+	{
+		draw_scope.plyWeapon_FD[curWpnIndex] = true;
+		if (curWpn.weaponEmptyCheckFunc != null && curWpn.weaponEmptyCheckFunc(vm) == true) return;
+		
+		if (curWpn.weaponSequence.len() > 1) curSequenceIndex = RandomInt(0, curWpn.weaponSequence.len()-1);
+		vm.__KeyValueFromInt("sequence", curWpn.weaponSequence[curSequenceIndex])
+	}
+}
+
 function MIGI_deployCheck()
 {
 	// Find all viewmodels
@@ -53,6 +77,7 @@ function MIGI_deployCheck()
 		{
 			draw_scope.plyWeapon_FD <- []
 			draw_scope.plyOwnedWpn <- []
+			
 			foreach(wpn in migi_initDeployWeapons)
 			{
 				draw_scope.plyWeapon_FD.push(false);
@@ -80,25 +105,13 @@ function MIGI_deployCheck()
 			if (ply.GetHealth() < 1) draw_scope.plyOwnedWpn[i] = false;
 			if (draw_scope.plyOwnedWpn[i] == false) draw_scope.plyWeapon_FD[i] = false
 			
-			// Skip if it isn't the weapon we're looking for
-			if(weaponVMDL != curWpn.weaponMDL || curWpn.weaponSequence.len() < 1)
+			// Skip if it doesn't need any check
+			if(curWpn.weaponSequence == null || curWpn.weaponSequence.len() < 1 || curWpn.weaponCustomCheckFunc == null)
 				continue
-				
-			if(curWpn.weaponCustomCheckFunc != null)
-			{
-				curWpn.weaponCustomCheckFunc(vm);
-				continue;
-			}
 			
-			local curSequenceIndex = 0;
-			if (draw_scope.plyWeapon_FD[i] == false)
-			{
-				draw_scope.plyWeapon_FD[i] = true
-				if (curWpn.weaponEmptyCheckFunc != null && curWpn.weaponEmptyCheckFunc(vm) == true) continue;
-				
-				if (curWpn.weaponSequence.len() > 1) curSequenceIndex = RandomInt(0, curWpn.weaponSequence.len()-1);
-				vm.__KeyValueFromInt("sequence", curWpn.weaponSequence[curSequenceIndex])
-			}
+			// let the different viewmodels call their own check functions
+			if (curWpn.weaponCustomCheckFunc == "basic") MIGI_BasicDeployCheck(vm);
+			else curWpn.weaponCustomCheckFunc(vm);
 		}
 	}
 }

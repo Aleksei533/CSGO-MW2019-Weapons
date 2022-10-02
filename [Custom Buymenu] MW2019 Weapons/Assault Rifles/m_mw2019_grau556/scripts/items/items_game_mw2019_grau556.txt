@@ -24,6 +24,7 @@
 			"attributes"
 			{
 				"magazine model"		"models/weapons/w_ar_grau556_mag.mdl"
+				"aimsight lens mask"		"models/shells/shell_rifle.mdl"
 				"primary reserve ammo max"		"90"
 				"tracer frequency alt"		"3"
 				"inaccuracy jump initial"		"78.790001"
@@ -83,8 +84,8 @@
 				"muzzle_flash_effect_3rd_person"		"AC_muzzle_grau556"
 				"heat_effect"		"AC_muzzle_grau556_smoke"
 				"addon_location"		"primary_rifle"
-				"eject_brass_effect"		"weapon_shell_casing_rifle"
-				"tracer_effect"		"weapon_tracers_assrifle"
+				"eject_brass_effect"		"cod_shell_rifle"
+				"tracer_effect"		"pb_ins2_muzzleflash_tracer"
 				"weapon_type"		"Rifle"
 				"player_animation_extension"		"sg556"
 				"primary_ammo"		"BULLET_PLAYER_556MM"

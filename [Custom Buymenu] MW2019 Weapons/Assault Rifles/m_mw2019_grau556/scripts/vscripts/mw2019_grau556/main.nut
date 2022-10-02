@@ -15,4 +15,4 @@ function sierra552_GetAmmoState(vm)
 	return ammo_track_state;
 }
 
-MIGI_InitDeployWeapon("models/weapons/v_ar_grau556.mdl", "weapon_deagle", [7], this.sierra552_GetAmmoState, null)
+MIGI_InitDeployWeapon("models/weapons/v_ar_grau556.mdl", "weapon_deagle", [7], "basic", this.sierra552_GetAmmoState)

@@ -15,4 +15,4 @@ function decho_GetAmmoState(vm)
 	return ammo_track_state;
 }
 
-MIGI_InitDeployWeapon("models/weapons/v_pi_50gs.mdl", "weapon_deagle", [6], this.decho_GetAmmoState, null)
+MIGI_InitDeployWeapon("models/weapons/v_pi_50gs.mdl", "weapon_deagle", [6], "basic", this.decho_GetAmmoState)

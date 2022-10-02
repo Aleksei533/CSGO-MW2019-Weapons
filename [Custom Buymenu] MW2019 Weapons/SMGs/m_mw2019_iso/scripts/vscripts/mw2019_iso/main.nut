@@ -15,4 +15,4 @@ function charlie9_GetAmmoState(vm)
 	return ammo_track_state;
 }
 
-MIGI_InitDeployWeapon("models/weapons/v_sm_iso.mdl", "weapon_deagle", [7], this.charlie9_GetAmmoState, null)
+MIGI_InitDeployWeapon("models/weapons/v_sm_iso.mdl", "weapon_deagle", [7], "basic", this.charlie9_GetAmmoState)

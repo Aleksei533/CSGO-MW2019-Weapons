@@ -88,6 +88,9 @@
 			"visuals"
 			{
 				"addon_location"		"primary_sniper"
+				"muzzle_flash_effect_1st_person"		""
+				"muzzle_flash_effect_3rd_person"		""
+				"eject_brass_effect"		""
 				"tracer_effect"		"pb_ins2_muzzleflash_tracer"
 				"weapon_type"		"SniperRifle"
 				"player_animation_extension"		"awp"

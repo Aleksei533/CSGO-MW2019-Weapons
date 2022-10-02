@@ -15,4 +15,4 @@ function decho_dual_GetAmmoState(vm)
 	return ammo_track_state;
 }
 
-MIGI_InitDeployWeapon("models/weapons/v_pi_50gs_akimbo.mdl", "weapon_elite", [6], this.decho_dual_GetAmmoState, null)
+MIGI_InitDeployWeapon("models/weapons/v_pi_50gs_akimbo.mdl", "weapon_elite", [6], "basic", this.decho_dual_GetAmmoState)

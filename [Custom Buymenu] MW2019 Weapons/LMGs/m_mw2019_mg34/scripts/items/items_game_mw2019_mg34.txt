@@ -25,6 +25,7 @@
 			{
 				"primary reserve ammo max"		"100"
 				"magazine model"		"models/weapons/w_lm_mg34_mag.mdl"
+				"aimsight lens mask"		"models/shells/shell_rifle.mdl"
 				"attack movespeed factor"		"0.500000"
 				"inaccuracy jump initial"		"116.290001"
 				"inaccuracy jump"		"292.230011"
@@ -88,8 +89,8 @@
 				"muzzle_flash_effect_3rd_person"		"AC_muzzle_mg34"
 				"heat_effect"		"AC_muzzle_ak47_smoke"
 				"addon_location"		"primary_mg"
-				"eject_brass_effect"		"weapon_shell_casing_rifle"
-				"tracer_effect"		"weapon_tracers_mach"
+				"eject_brass_effect"		"cod_shell_rifle"
+				"tracer_effect"		"pb_ins2_muzzleflash_tracer"
 				"weapon_type"		"Machinegun"
 				"player_animation_extension"		"negev"
 				"primary_ammo"		"BULLET_PLAYER_556MM_BOX"

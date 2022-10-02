@@ -20,5 +20,5 @@ function VM_MGL32_GetAnim(vm)
 	return tracked_anim;
 }
 
-MIGI_InitDeployWeapon("models/weapons/v_la_mgl32.mdl", "weapon_ump45", [4], null, null)
+MIGI_InitDeployWeapon("models/weapons/v_la_mgl32.mdl", "weapon_ump45", [4], "basic", null)
 MIGI_Projectile(10, 0.6, 3000, "weapon_mgl32", 400, 200, 1.0, 60.0, 2.0, 10.0, 90.0, null, null, null, null, null, 600, false, "MGL32", "prop_dynamic", "models/weapons/w_la_mgl32_charge.mdl", "models/weapons/v_la_mgl32.mdl", "Weapon_MGL32.Explode", null, this.VM_MGL32_GetAnim)

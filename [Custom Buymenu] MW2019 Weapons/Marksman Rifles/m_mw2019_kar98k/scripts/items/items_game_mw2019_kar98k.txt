@@ -37,6 +37,7 @@
 			"attributes"
 			{
 				"primary reserve ammo max"		"20"
+				"aimsight lens mask"		"models/shells/shell_rifle.mdl"
 				"inaccuracy jump initial"		"208.720001"
 				"inaccuracy jump"		"5.720000"
 				"inaccuracy jump alt"		"5.720000"
@@ -111,8 +112,8 @@
 				"muzzle_flash_effect_3rd_person"		"AC_muzzle_kar98k"
 				"heat_effect"		"AC_muzzle_kar98k_smoke"
 				"addon_location"		"primary_sniper"
-				"eject_brass_effect"		"weapon_shell_casing_rifle"
-				"tracer_effect"		"weapon_tracers_assrifle"
+				"eject_brass_effect"		"cod_shell_rifle"
+				"tracer_effect"		"pb_ins2_muzzleflash_tracer"
 				"weapon_type"		"Rifle"
 				"player_animation_extension"		"ssg08"
 				"primary_ammo"		"BULLET_PLAYER_762MM"

@@ -15,4 +15,4 @@ function scharlie_GetAmmoState(vm)
 	return ammo_track_state;
 }
 
-MIGI_InitDeployWeapon("models/weapons/v_ar_scar17.mdl", "weapon_deagle", [7, 8], this.scharlie_GetAmmoState, null)
+MIGI_InitDeployWeapon("models/weapons/v_ar_scar17.mdl", "weapon_deagle", [7, 8], "basic", this.scharlie_GetAmmoState)

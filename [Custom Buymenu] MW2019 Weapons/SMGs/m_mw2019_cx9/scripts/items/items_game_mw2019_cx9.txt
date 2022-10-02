@@ -24,6 +24,7 @@
 			"attributes"
 			{
 				"magazine model"		"models/weapons/w_sm_cx9_mag.mdl"
+				"aimsight lens mask"		"models/shells/shell_pistol.mdl"
 				"primary reserve ammo max"		"40"
 				"inaccuracy jump initial"		"104.599998"
 				"inaccuracy jump"		"90.080002"
@@ -82,7 +83,7 @@
 				"heat_effect"		"AC_muzzle_desert_smoke"
 				"addon_location"		"primary_smg"
 				"eject_brass_effect"		"cod_shell_smg"
-				"tracer_effect"		"weapon_tracers_smg"
+				"tracer_effect"		"pb_ins2_muzzleflash_tracer"
 				"weapon_type"		"SubMachinegun"
 				"player_animation_extension"		"mac10"
 				"primary_ammo"		"BULLET_PLAYER_45ACP"

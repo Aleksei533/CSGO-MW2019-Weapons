@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+"$basetexture" "models\shells\snip_ax50\diffuse"
+"$bumpmap" "models\shells\snip_ax50\normal"
+"$phongexponenttexture" "models\shells\snip_ax50\exp"
+	
+    "$color2" "[.2 .2 .2]"
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "50"
+	"$phongalbedotint" "1"
+	"$phongalbedoboost"	"25"
+	"$phongfresnelranges" "[.4 .2 0]"
+	"$envmap" "env_cubemap"
+	"$envmaptint"	"[0.2 0.15 0.1]"
+    "$basemapalphaenvmapmask" "1"
+	"$envmapfresnel" "1.3"
+}

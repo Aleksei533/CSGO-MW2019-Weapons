@@ -15,4 +15,4 @@ function papa320_GetAmmoState(vm)
 	return ammo_track_state;
 }
 
-MIGI_InitDeployWeapon("models/weapons/v_pi_m19.mdl", "weapon_deagle", [8], this.papa320_GetAmmoState, null)
+MIGI_InitDeployWeapon("models/weapons/v_pi_m19.mdl", "weapon_deagle", [8], "basic", this.papa320_GetAmmoState)

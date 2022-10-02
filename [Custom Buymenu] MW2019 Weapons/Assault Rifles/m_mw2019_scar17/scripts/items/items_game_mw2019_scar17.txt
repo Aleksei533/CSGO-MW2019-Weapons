@@ -24,6 +24,7 @@
 			"attributes"
 			{
 				"magazine model"		"models/weapons/w_ar_scar17_mag.mdl"
+				"aimsight lens mask"		"models/shells/shell_rifle.mdl"
                 "primary reserve ammo max"		"90"
 				"recovery time crouch"		"0.242100"
 				"recovery time crouch final"		"0.332888"
@@ -82,8 +83,8 @@
 				"primary_ammo"		"BULLET_PLAYER_556MM_SMALL"
 				"weapon_type"		"Rifle"
 				"addon_location"		"primary_rifle"
-				"eject_brass_effect"		"weapon_shell_casing_rifle"
-				"tracer_effect"		"weapon_tracers_assrifle"
+				"eject_brass_effect"		"cod_shell_rifle"
+				"tracer_effect"		"pb_ins2_muzzleflash_tracer"
 				"muzzle_flash_effect_1st_person"		"AC_muzzle_scar17"
 				"muzzle_flash_effect_1st_person_alt"		"AC_muzzle_scar17"
 				"muzzle_flash_effect_3rd_person"		"AC_muzzle_scar17"

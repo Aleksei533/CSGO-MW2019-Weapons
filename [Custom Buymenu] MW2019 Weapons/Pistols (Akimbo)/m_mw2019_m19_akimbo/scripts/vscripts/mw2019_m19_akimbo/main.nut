@@ -15,4 +15,4 @@ function papa320_dual_GetAmmoState(vm)
 	return ammo_track_state;
 }
 
-MIGI_InitDeployWeapon("models/weapons/v_pi_m19_akimbo.mdl", "weapon_elite", [8], this.papa320_dual_GetAmmoState, null)
+MIGI_InitDeployWeapon("models/weapons/v_pi_m19_akimbo.mdl", "weapon_elite", [8], "basic", this.papa320_dual_GetAmmoState)

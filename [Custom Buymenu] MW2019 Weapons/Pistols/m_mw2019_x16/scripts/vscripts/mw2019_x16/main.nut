@@ -15,4 +15,4 @@ function golf21_GetAmmoState(vm)
 	return ammo_track_state;
 }
 
-MIGI_InitDeployWeapon("models/weapons/v_pi_x16.mdl", "weapon_deagle", [8], this.golf21_GetAmmoState, null)
+MIGI_InitDeployWeapon("models/weapons/v_pi_x16.mdl", "weapon_deagle", [8], "basic", this.golf21_GetAmmoState)

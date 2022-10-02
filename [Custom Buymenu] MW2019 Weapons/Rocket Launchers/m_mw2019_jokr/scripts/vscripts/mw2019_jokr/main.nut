@@ -21,5 +21,5 @@ function VM_JOKR_GetAnim(vm)
 	return tracked_anim;
 }
 
-MIGI_InitDeployWeapon("models/weapons/v_la_jokr.mdl", "weapon_ump45", [3], null, null)
+MIGI_InitDeployWeapon("models/weapons/v_la_jokr.mdl", "weapon_ump45", [3], "basic", null)
 MIGI_Projectile(10, 0.9, 2750, "weapon_jokr", 500, 250, 1.0, 60.0, 2.0, 10.0, 90.0, null, null, null, null, null, 600, false, "JOKR", "prop_dynamic", "models/weapons/w_la_jokr_rocket.mdl", "models/weapons/v_la_jokr.mdl", "Weapon_JOKR.Explode", "Weapon_JOKR.Travel", this.VM_JOKR_GetAnim)

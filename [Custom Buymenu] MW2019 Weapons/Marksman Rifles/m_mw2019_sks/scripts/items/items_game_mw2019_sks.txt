@@ -24,6 +24,7 @@
 			"attributes"
 			{
 				"magazine model"		"models/weapons/w_sn_sks_mag.mdl"
+				"aimsight lens mask"		"models/shells/shell_rifle.mdl"
 				"primary reserve ammo max"		"40"
 				"inaccuracy jump initial"		"107.690002"
 				"inaccuracy jump"		"153.770004"
@@ -97,8 +98,8 @@
 				"muzzle_flash_effect_3rd_person"		"AC_muzzle_sks"
 				"heat_effect"		"AC_muzzle_sks_smoke"
 				"addon_location"		"primary_sniper"
-				"eject_brass_effect"		"weapon_shell_casing_rifle"
-				"tracer_effect"		"weapon_tracers_rifle"
+				"eject_brass_effect"		"cod_shell_rifle"
+				"tracer_effect"		"pb_ins2_muzzleflash_tracer"
 				"weapon_type"		"Rifle"
 				"player_animation_extension"		"g3"
 				"primary_ammo"		"BULLET_PLAYER_762MM"

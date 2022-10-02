@@ -15,4 +15,4 @@ function mike_dual_GetAmmoState(vm)
 	return ammo_track_state;
 }
 
-MIGI_InitDeployWeapon("models/weapons/v_pi_sykov_akimbo.mdl", "weapon_elite", [8], this.mike_dual_GetAmmoState, null)
+MIGI_InitDeployWeapon("models/weapons/v_pi_sykov_akimbo.mdl", "weapon_elite", [8], "basic", this.mike_dual_GetAmmoState)

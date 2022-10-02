@@ -24,6 +24,7 @@
 			"attributes"
 			{
 			    "magazine model"		"models/weapons/w_p_m19_mag.mdl"
+				"aimsight lens mask"		"models/shells/shell_pistol.mdl"
                 "primary reserve ammo max"		"34"
 				"inaccuracy jump initial"		"96.620003"
 				"inaccuracy jump"		"92.959999"

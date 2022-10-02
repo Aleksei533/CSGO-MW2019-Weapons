@@ -102,4 +102,4 @@ function dpapa12_CustomDeployCheck(vm)
 	}
 }
 
-MIGI_InitDeployWeapon("models/weapons/v_sh_r90.mdl", "weapon_sawedoff", [7], null, this.dpapa12_CustomDeployCheck)
+MIGI_InitDeployWeapon("models/weapons/v_sh_r90.mdl", "weapon_sawedoff", [7], this.dpapa12_CustomDeployCheck, null)
