@@ -10,7 +10,7 @@
 			"item_description"		"X16 Akimbo"
 			"item_rarity"		"uncommon"
 			"image_inventory"		"mw2019_weapons/x16_akimbo"
-			"model_player"		"models/weapons/v_pi_X16_akimbo.mdl"
+			"model_player"		"models/weapons/v_pi_x16_akimbo.mdl"
 			"model_world"		"models/weapons/w_pi_x16_akimbo.mdl"
 			"model_dropped"		"models/weapons/w_pi_x16_dropped_akimbo.mdl"
 			"stickers"

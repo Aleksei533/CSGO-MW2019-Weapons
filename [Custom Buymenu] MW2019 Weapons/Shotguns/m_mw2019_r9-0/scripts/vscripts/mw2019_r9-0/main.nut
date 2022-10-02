@@ -39,8 +39,11 @@ self.PrecacheScriptSound("Weapon_R90.Reload_Empty_End_Chamber");
 function dpapa12_CustomDeployCheck(vm)
 {
 	local ply = vm.GetMoveParent()
+	if (!ply || !ply.IsValid()) return;
+	
+	local VMDL = vm.GetModelName();
 	local dpapa12_index = MIGI_InitDeploy_GetWpnIndex("models/weapons/v_sh_r90.mdl", "weapon_sawedoff");
-	if (dpapa12_index < 0) return;
+	if (dpapa12_index < 0 || VMDL != "models/weapons/v_sh_r90.mdl") return;
 	
 	ply.ValidateScriptScope();
 	local draw_scope = ply.GetScriptScope();

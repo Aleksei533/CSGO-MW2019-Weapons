@@ -40,15 +40,17 @@
 
 function MIGI_BasicDeployCheck(vm)
 {
+	local owner = vm.GetMoveParent();
+	if (!owner || !owner.IsValid() || owner.GetHealth() < 1) 
+		return;
+	
 	local curSequenceIndex = 0;
 	local VMDL = vm.GetModelName();
 	local curWpnIndex = MIGI_InitDeploy_GetWpnIndex(VMDL);
 	if (curWpnIndex < 0) return;
 	
 	local curWpn = migi_initDeployWeapons[curWpnIndex];
-	local owner = vm.GetMoveParent();
-	if (!owner || !owner.IsValid() || owner.GetHealth() < 1) 
-		return;
+	if (curWpn == null || VMDL != curWpn.weaponMDL) return;
 	
 	owner.ValidateScriptScope();
 	local draw_scope = owner.GetScriptScope();
@@ -85,7 +87,6 @@ function MIGI_deployCheck()
 			}
 		}
 		
-		local weaponVMDL = vm.GetModelName();
 		for(local i = 0; i < migi_initDeployWeapons.len(); i++)
 		{
 			local curWpn = migi_initDeployWeapons[i];
