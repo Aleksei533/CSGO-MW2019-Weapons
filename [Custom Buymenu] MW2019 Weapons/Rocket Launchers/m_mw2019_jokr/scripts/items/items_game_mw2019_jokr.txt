@@ -92,6 +92,8 @@
 			"model_world"		"models/weapons/w_la_jokr.mdl"
 			"model_dropped"		"models/weapons/w_la_jokr_dropped.mdl"
 			"icon_default_image"		"materials/icons/inventory_icon_weapon_ssg08.vtf"
+			"zoom_in_sound"		"Weapon_JOKR.ZoomIn"
+			"zoom_out_sound"		"Weapon_JOKR.ZoomOut"
 			"used_by_classes"
 			{
 				"counter-terrorists"		"1"

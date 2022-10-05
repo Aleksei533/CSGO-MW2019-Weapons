@@ -25,6 +25,7 @@
 			{
 				//"icon display model"		"models/weapons/w_rif_m4a1_s_icon.mdl"
 				"magazine model"		"models/weapons/w_ar_asval_mag.mdl"
+				"aimsight lens mask"		"models/shells/mw2019/shell_rifle.mdl"
 				"primary reserve ammo max"		"60"
 				"is full auto"		"1"
 				"time between burst shots"		"0.090000"

@@ -24,7 +24,7 @@
 			"attributes"
 			{
 			   "magazine model"		"models/weapons/w_p_50gs_mag.mdl"
-			   "aimsight lens mask"		"models/shells/shell_pistol.mdl"
+			   "aimsight lens mask"		"models/shells/mw2019/shell_pistol.mdl"
 				"heat per shot"		"0.300000"
 				"addon scale"		"1.000000"
 				"tracer frequency"		"1"

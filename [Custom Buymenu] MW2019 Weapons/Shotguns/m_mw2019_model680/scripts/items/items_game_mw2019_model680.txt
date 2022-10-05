@@ -24,7 +24,7 @@
 			"attributes"
 			{
 				"primary reserve ammo max"		"32"
-				"aimsight lens mask"		"models/shells/shell_12gauge.mdl"
+				"aimsight lens mask"		"models/shells/mw2019/shell_12gauge.mdl"
 				"is full auto"		"0"
 				"inaccuracy jump initial"		"100.379997"
 				"inaccuracy jump"		"130.830002"

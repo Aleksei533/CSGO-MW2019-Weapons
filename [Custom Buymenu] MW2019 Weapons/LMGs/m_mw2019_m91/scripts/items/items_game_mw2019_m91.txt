@@ -25,7 +25,7 @@
 			{
 				"primary reserve ammo max"		"200"
 				"magazine model"		"models/weapons/w_lm_m91_mag.mdl"
-				"aimsight lens mask"		"models/shells/shell_rifle.mdl"
+				"aimsight lens mask"		"models/shells/mw2019/shell_rifle.mdl"
 				"inaccuracy jump initial"		"118.269997"
 				"inaccuracy jump"		"279.470001"
 				"heat per shot"		"0.350000"

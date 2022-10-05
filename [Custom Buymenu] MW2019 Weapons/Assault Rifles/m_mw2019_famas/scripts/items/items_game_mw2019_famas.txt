@@ -24,7 +24,7 @@
 			"attributes"
 			{
 				"magazine model"		"models/weapons/w_ar_famas_mag.mdl"
-				"aimsight lens mask"		"models/shells/shell_rifle.mdl"
+				"aimsight lens mask"		"models/shells/mw2019/shell_rifle.mdl"
                 "primary reserve ammo max"		"90"
 				"recovery time crouch"		"0.120000"
 				"recovery time crouch final"		"0.480000"

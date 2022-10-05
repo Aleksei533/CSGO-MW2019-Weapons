@@ -24,7 +24,7 @@
 			"attributes"
 			{
 				"magazine model"		"models/weapons/w_ar_oden_mag.mdl"
-				"aimsight lens mask"		"models/shells/shell_50cal.mdl"
+				"aimsight lens mask"		"models/shells/mw2019/shell_50cal.mdl"
                 "primary reserve ammo max"		"90"
 				"recovery time crouch"		"0.242100"
 				"recovery time crouch final"		"0.332888"
@@ -43,7 +43,7 @@
 				"in game price"		"3100"
 				"armor ratio"		"1.400000"
 				"penetration"		"2"
-				"damage"		"33"
+				"damage"		"64"
 				"range"		"8192"
 				"range modifier"		"0.970000"
 				"cycletime"		"0.137931"

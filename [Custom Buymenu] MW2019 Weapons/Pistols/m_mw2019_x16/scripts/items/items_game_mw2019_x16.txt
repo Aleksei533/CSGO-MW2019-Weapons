@@ -24,7 +24,7 @@
 			"attributes"
 			{
 				"has burst mode"		"0"
-				"aimsight lens mask"		"models/shells/shell_pistol.mdl"
+				"aimsight lens mask"		"models/shells/mw2019/shell_pistol.mdl"
 				"cycletime"		"0.196721"
 				"cycletime when in burst mode"		"0.55"
 				"time between burst shots"	    	"0.05"

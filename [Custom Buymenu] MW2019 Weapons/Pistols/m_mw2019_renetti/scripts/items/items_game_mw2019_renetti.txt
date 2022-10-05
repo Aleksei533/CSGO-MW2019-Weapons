@@ -24,7 +24,7 @@
 			"attributes"
 			{
 				"cycletime"		"0.190476"
-				"aimsight lens mask"		"models/shells/shell_pistol.mdl"
+				"aimsight lens mask"		"models/shells/mw2019/shell_pistol.mdl"
 				"magazine model"		"models/weapons/w_pist_renetti_mag.mdl"
 				"primary reserve ammo max"		"30"
 				"tracer frequency alt"		"1"

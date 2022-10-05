@@ -37,7 +37,7 @@
 			"attributes"
 			{
 				"primary reserve ammo max"		"20"
-				"aimsight lens mask"		"models/shells/shell_rifle.mdl"
+				"aimsight lens mask"		"models/shells/mw2019/shell_rifle.mdl"
 				"inaccuracy jump initial"		"208.720001"
 				"inaccuracy jump"		"5.720000"
 				"inaccuracy jump alt"		"5.720000"

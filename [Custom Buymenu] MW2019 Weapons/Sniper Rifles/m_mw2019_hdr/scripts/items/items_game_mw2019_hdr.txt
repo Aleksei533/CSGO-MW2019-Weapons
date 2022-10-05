@@ -38,7 +38,7 @@
 			"attributes"
 			{
 				"magazine model"		"models/weapons/w_sn_hdr_mag.mdl"
-				"aimsight lens mask"		"models/shells/shell_50cal.mdl"
+				"aimsight lens mask"		"models/shells/mw2019/shell_50cal.mdl"
 				"unzoom after shot"		"1"
 				"primary reserve ammo max"		"90"
 				"inaccuracy jump initial"		"208.720001"
