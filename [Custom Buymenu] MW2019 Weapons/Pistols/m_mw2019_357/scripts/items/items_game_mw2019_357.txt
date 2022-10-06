@@ -6,7 +6,7 @@
 		{
 			"prefab"		"secondary"
 			"item_class"		"weapon_deagle"
-			"item_name"		".357"
+			"item_name"		".357 "
 			"item_description"		"Double action revolver firing .357 Magnum ammunition for powerful damage over extended ranges."
 			"item_rarity"		"uncommon"
 			"image_inventory"		"mw2019_weapons/357"
