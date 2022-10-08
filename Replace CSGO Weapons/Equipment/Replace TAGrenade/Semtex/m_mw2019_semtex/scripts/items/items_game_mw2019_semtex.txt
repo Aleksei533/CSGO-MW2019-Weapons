@@ -1,0 +1,11 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"weapon_tagrenade_prefab"
+		{
+			"item_name"		"SemTex Grenade"
+			"item_description"		"SemTex Grenade"
+		}
+	}
+}

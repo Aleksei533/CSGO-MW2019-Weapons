@@ -5,7 +5,7 @@
 		"weapon_soscar_knife_prefab"
 		{
 			"prefab"		"melee"
-			"item_name"		"Knife"
+			"item_name"		"Combat Knife"
 			"item_description"		"CoD knife"
 			"item_rarity"		"rare"
 			//"image_inventory"		"econ/weapons/base_weapons/asval"

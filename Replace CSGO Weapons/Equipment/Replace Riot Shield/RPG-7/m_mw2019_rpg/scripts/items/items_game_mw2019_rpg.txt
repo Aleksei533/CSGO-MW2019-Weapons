@@ -1,0 +1,158 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"projectile_launcher"
+		{
+			"prefab"		"rifle"
+			"item_class"		"weapon_ump45"
+			"item_rarity"		"immortal"
+			"stickers"
+			{
+			}
+			"paint_data"
+			{
+			}
+			"capabilities"
+			{
+				"nameable"		"0"
+				"paintable"		"0"
+				"can_sticker"		"0"
+				"can_stattrack_swap"		"0"
+			}
+			"attributes"
+			{
+				"uid model"		""
+				"stattrak model"		""
+				"magazine model"		""
+				"primary reserve ammo max"		"3"
+				"primary default clip size"		"-1"
+				"secondary default clip size"		"-1"
+				"inaccuracy jump initial"		"1.0"
+				"inaccuracy jump"		"1.0"
+				"inaccuracy jump apex"		"1.0"
+				"inaccuracy jump alt"		"1.0"
+				"heat per shot"		"0.5"
+				"addon scale"		"0.9"
+				"max player speed"		"180"
+				"max player speed alt"		"180"
+				"tracer frequency"  "1"
+				"in game price"		"10000"
+				"armor ratio"		"0.0"
+				"crosshair min distance"		"3"
+				"zoom levels"		"0"
+				"penetration"		"0.0"
+				"damage"		"0"
+				"range"		"0"
+				"bullets"		"0"
+				"cycletime"		"1.0"
+				"time to idle"		"1.0"
+				"idle interval"		"60"
+				"flinch velocity modifier large"		"0.1"
+				"flinch velocity modifier small"		"0.1"
+				"spread"		"0.3"
+				"inaccuracy crouch"		"0.1"
+				"inaccuracy stand"		"0.1"
+				"inaccuracy land"		"0.05"
+				"inaccuracy ladder"		"1.0"
+				"inaccuracy fire"		"10"
+				"inaccuracy move"		"1.0"
+				"spread alt"		"0.3"
+				"inaccuracy crouch alt"		"0.1"
+				"inaccuracy stand alt"		"0.1"
+				"inaccuracy land alt"		"0.05"
+				"inaccuracy ladder alt"		"1.0"
+				"inaccuracy fire alt"		"10"
+				"inaccuracy move alt"		"1.0"
+				"recovery time crouch"		"0.1"
+				"recovery time stand"		"0.1"
+				"recoil angle"		"0"
+				"recoil angle variance"		"5"
+				"recoil magnitude"		"10"
+				"recoil magnitude variance"		"2"
+				"recoil seed"		"101"
+				"primary clip size"		"1"
+				"weapon weight"		"30"
+				"rumble effect"		"4"
+				"recoil angle alt"		"0"
+				"recoil angle variance alt"		"5"
+				"recoil magnitude alt"		"10"
+				"recoil magnitude variance alt"		"2"
+				"recovery time crouch final"		"0.1"
+				"recovery time stand final"		"0.1"
+			}
+		}
+		"weapon_rpg_prefab"
+		{
+			"prefab"		"projectile_launcher"
+			"item_name"		"RPG-7"
+			"item_description"		"Unguided, self-propelled rocket launcher fires a slower projectile with a high-explosive yield."
+			"image_inventory"		"mw2019_weapons/rpg"
+			"model_player"		"models/weapons/v_la_rpg.mdl"
+			"model_world"		"models/weapons/w_la_rpg.mdl"
+			"model_dropped"		"models/weapons/w_la_rpg_dropped.mdl"
+			"icon_default_image"		"materials/icons/inventory_icon_weapon_ssg08.vtf"
+			"used_by_classes"
+			{
+				"counter-terrorists"		"1"
+				"terrorists"		"1"
+			}
+			"inventory_image_data"
+			{
+				"camera_angles"		"-5.0 -140.0 0.0"
+				"camera_offset"		"20.0 4.0 -2.4"
+				"spot_light_key"
+				{
+					"position"		"-120 120 120"
+					"color"		"2 2.1 2.3"
+					"lookat"		"0.0 0.0 0.0"
+					"inner_cone"		"0.500000"
+					"outer_cone"		"1.000000"
+				}
+			}
+			"attributes"
+			{
+				"primary reserve ammo max"		"3"
+				"primary clip size"		"1"
+				"in game price"		"8000"
+				"cycletime"		"0.5"
+				"time to idle"		"1.8"
+			}
+			"visuals"
+			{
+				"muzzle_flash_effect_1st_person"		"weapon_muzzle_flash_smoke_small"
+				"muzzle_flash_effect_3rd_person"		"weapon_muzzle_flash_smoke_small"
+				"heat_effect"		""
+				"addon_location"		"primary_mg"
+				"eject_brass_effect"		""
+				"tracer_effect"		""
+				"weapon_type"		"Rifle"
+				"player_animation_extension"		"ump45"
+				"primary_ammo"		"BULLET_PLAYER_338MAG"
+				"sound_single_shot"		"Weapon_RPG.Single"
+				"sound_nearlyempty"		"Default.nearlyempty"
+			}
+		}
+	}
+	"items"
+	{
+		"37"
+		{
+			"name"		"weapon_rpg"
+			"prefab"		"weapon_rpg_prefab"
+			"item_quality"		"normal"
+			"baseitem"		"1"
+			"default_slot_item"		"1"
+			"item_sub_position"		"heavy5"
+			"item_slot"					"heavy"
+			"inv_group_equipment"		"heavy"
+		}
+		"237"
+		{
+			"name"		"weapon_shield"
+			"prefab"		"weapon_shield_prefab"
+			"baseitem"		"0"
+			"default_slot_item"		"0"
+		}
+	}
+}

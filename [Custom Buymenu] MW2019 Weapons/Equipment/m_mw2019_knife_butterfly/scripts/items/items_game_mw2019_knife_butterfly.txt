@@ -5,7 +5,7 @@
 		"weapon_butterfly_knife_prefab"
 		{
 			"prefab"		"melee"
-			"item_name"		"Butterfly"
+			"item_name"		"Butterfly Knife"
 			"item_description"		"CoD knife butterfly"
 			"item_rarity"		"rare"
 			//"image_inventory"		"econ/weapons/base_weapons/asval"

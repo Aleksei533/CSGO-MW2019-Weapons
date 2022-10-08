@@ -1,0 +1,171 @@
+"Melee_Knife.Charge"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			")melee/knife/melee_knife_charge_01.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Melee_Knife.Inspect_01"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			")melee/knife/wfoly_me_knife_inspect_01.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Melee_Knife.Inspect_02"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			")melee/knife/wfoly_me_knife_inspect_02.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+"Melee_Knife.Inspect_03"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"100"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"			")melee/knife/wfoly_me_knife_inspect_03.wav"
+	"hrtf_follow"		"1"
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"start_stack"
+		{
+			"import_stack" "CS_limit_start"
+		}
+
+		"update_stack"
+		{
+			"import_stack" "CS_update_foley"
+			"mixer"
+			{
+				"mixgroup" "FoleyWeapons"
+			}
+		}
+	}
+}
+
+//
+
+"Weapon_Knife.Hit"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+        "wave" ")melee/knife/melee_character_knife_plr_01.wav"
+		"wave" ")melee/knife/melee_character_knife_plr_02.wav"
+        "wave" ")melee/knife/melee_character_knife_plr_03.wav"
+		"wave" ")melee/knife/melee_character_knife_plr_04.wav"
+        "wave" ")melee/knife/melee_character_knife_plr_05.wav"
+	}
+
+}
+
+"Weapon_Knife.HitWall"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+        "wave" ")melee/knife/melee_world_knife_cement_plr_01.wav"
+		"wave" ")melee/knife/melee_world_knife_cement_plr_02.wav"
+        "wave" ")melee/knife/melee_world_knife_cement_plr_03.wav"
+		"wave" ")melee/knife/melee_world_knife_cement_plr_04.wav"
+        "wave" ")melee/knife/melee_world_knife_cement_plr_05.wav"
+	}
+}
+
+"Weapon_Knife.Slash"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"rndwave"
+	{
+		"wave" ")melee/knife/melee_attack_knife_plr_01.wav"
+		"wave" ")melee/knife/melee_attack_knife_plr_02.wav"
+        "wave" ")melee/knife/melee_attack_knife_plr_03.wav"
+		"wave" ")melee/knife/melee_attack_knife_plr_04.wav"
+        "wave" ")melee/knife/melee_attack_knife_plr_05.wav"
+        "wave" ")melee/knife/melee_attack_knife_plr_06.wav"
+
+	}
+
+}
+
+"Weapon_Knife.Stab"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"  		"SNDLVL_65dB"
+	"wave"  		")melee/knife/knife_stab.wav"
+	
+}

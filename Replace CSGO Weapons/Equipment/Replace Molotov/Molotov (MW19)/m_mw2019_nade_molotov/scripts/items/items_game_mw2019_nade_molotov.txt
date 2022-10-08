@@ -1,0 +1,47 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"weapon_molotov_prefab"
+		{
+			"prefab"		"grenade"
+			"item_class"		"weapon_molotov"
+			"item_name"		"#SFUI_WPNHUD_MOLOTOV"
+			"item_description"		"#CSGO_Item_Desc_Molotov"
+			//"image_inventory"		"econ/weapons/base_weapons/weapon_molotov"
+			"icon_default_image"		"materials/icons/inventory_icon_weapon_molotov.vtf"
+			"model_player"		"models/weapons/v_eq_molotov.mdl"
+			"model_world"		"models/weapons/w_eq_molotov.mdl"
+			"model_dropped"		"models/weapons/w_eq_molotov_dropped.mdl"
+			"used_by_classes"
+			{
+				"terrorists"		"1"
+			}
+			"attributes"
+			{
+				"max player speed"		"245"
+				"in game price"		"400"
+				"crosshair min distance"		"8"
+				"armor ratio"		"1.800000"
+				"penetration"		"1"
+				"damage"		"40"
+				"range"		"4096"
+				"range modifier"		"0.990000"
+				"throw velocity"		"750.000000"
+				"primary default clip size"		"1"
+				"secondary default clip size"		"1"
+				"weapon weight"		"2"
+				"itemflag exhaustible"		"1"
+				"max player speed alt"		"245"
+			}
+			"visuals"
+			{
+				"weapon_type"		"Grenade"
+				"player_animation_extension"		"gren"
+				"primary_ammo"		"AMMO_TYPE_MOLOTOV"
+				"sound_single_shot"		"Equipment_Molotov.Throw"
+				"sound_nearlyempty"		"Default.nearlyempty"
+			}
+		}
+    }
+}

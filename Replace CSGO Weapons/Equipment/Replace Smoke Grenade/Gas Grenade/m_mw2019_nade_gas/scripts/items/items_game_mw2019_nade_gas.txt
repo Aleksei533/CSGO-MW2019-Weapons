@@ -1,0 +1,15 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"weapon_smokegrenade_prefab"
+		{
+			"item_name"		"Gas Grenade"
+			"item_description"		"Produces serious amount of gas that damages the lungs of suspects inside gas cloud."
+			"attributes"
+			{
+				"model right handed"		"0"
+			}
+		}
+	}
+}

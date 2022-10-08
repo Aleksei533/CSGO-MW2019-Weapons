@@ -1,0 +1,13 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"weapon_flashbang_prefab"
+		{
+			"attributes"
+			{
+				"model right handed"		"0"
+			}
+		}
+	}
+}

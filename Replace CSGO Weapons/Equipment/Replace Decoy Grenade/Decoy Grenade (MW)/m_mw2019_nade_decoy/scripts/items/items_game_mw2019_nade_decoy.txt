@@ -1,0 +1,21 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"weapon_decoy_prefab"
+		{
+			"attributes"
+			{
+				"model right handed"		"0"
+			}
+			"visuals"
+			{
+				"weapon_type"		"Grenade"
+				"player_animation_extension"		"gren"
+				"primary_ammo"		"AMMO_TYPE_DECOY"
+				"sound_single_shot"		"Equipment_Decoy.Throw"
+				"sound_nearlyempty"		"Default.nearlyempty"
+			}
+		}
+	}
+}
