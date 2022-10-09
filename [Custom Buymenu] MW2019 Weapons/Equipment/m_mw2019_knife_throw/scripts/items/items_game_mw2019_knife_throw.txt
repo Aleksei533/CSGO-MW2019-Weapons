@@ -10,7 +10,7 @@
 			"item_description"		"The pinnacle of stealth and precision, the Throwing Knife deals good damage on contact."
 			"item_quality"		"normal"
 			"item_rarity"		"ancient"
-			"image_inventory"		"mw2019_weapons/throwing_knife"
+			"image_inventory"		"mw2019_weapons/knife_throw"
 			"model_player"		"models/weapons/v_eq_throwing_knife.mdl"
 			"model_world"		"models/weapons/w_th_knife.mdl"
 			"model_dropped"		"models/weapons/w_th_knife_dropped.mdl"

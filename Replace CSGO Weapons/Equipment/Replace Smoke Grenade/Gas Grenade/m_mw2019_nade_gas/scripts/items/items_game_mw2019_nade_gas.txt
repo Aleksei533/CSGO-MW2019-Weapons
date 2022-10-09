@@ -6,6 +6,7 @@
 		{
 			"item_name"		"Gas Grenade"
 			"item_description"		"Produces serious amount of gas that damages the lungs of suspects inside gas cloud."
+			"image_inventory"		"mw2019_weapons/gas_nade"
 			"attributes"
 			{
 				"model right handed"		"0"

@@ -6,6 +6,7 @@
 		{
 			"item_name"		"SemTex Grenade"
 			"item_description"		"SemTex Grenade"
+			"image_inventory"		"mw2019_weapons/semtex"
 		}
 	}
 }

@@ -8,7 +8,7 @@
 			"item_class"		"weapon_shield"
 			"item_name"		"#SFUI_WPNHUD_Shield"
 			"item_description"		"#CSGO_Item_Desc_Shield"
-			"image_inventory"		"econ/weapons/base_weapons/weapon_shield"
+			"image_inventory"		"mw2019_weapons/shield"
 			"icon_default_image"		"materials/icons/inventory_icon_weapon_shield.vtf"
 			"model_player"		"models/weapons/v_shield.mdl"
 			"model_world"		"models/weapons/w_eq_shield.mdl"

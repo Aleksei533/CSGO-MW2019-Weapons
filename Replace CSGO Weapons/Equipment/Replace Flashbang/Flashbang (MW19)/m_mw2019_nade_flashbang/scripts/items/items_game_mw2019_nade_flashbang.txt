@@ -4,6 +4,7 @@
 	{
 		"weapon_flashbang_prefab"
 		{
+			"image_inventory"		"mw2019_weapons/flashbang"
 			"attributes"
 			{
 				"model right handed"		"0"

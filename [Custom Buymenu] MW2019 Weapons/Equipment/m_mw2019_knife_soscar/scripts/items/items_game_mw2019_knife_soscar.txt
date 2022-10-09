@@ -8,7 +8,7 @@
 			"item_name"		"Combat Knife"
 			"item_description"		"CoD knife"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/knife_combat"
 			"model_player"		"models/weapons/v_me_knife.mdl"
 			"model_world"		"models/weapons/w_me_soscar.mdl"
 			"model_dropped"		"models/weapons/w_me_soscar_dropped.mdl"

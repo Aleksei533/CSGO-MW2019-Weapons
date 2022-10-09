@@ -8,7 +8,7 @@
 			"item_name"		"Butterfly Knife"
 			"item_description"		"CoD knife butterfly"
 			"item_rarity"		"rare"
-			//"image_inventory"		"econ/weapons/base_weapons/asval"
+			"image_inventory"		"mw2019_weapons/knife_butterfly"
 			"model_player"		"models/weapons/v_me_knife_butterfly.mdl"
 			"model_world"		"models/weapons/w_me_butterfly.mdl"
 			"model_dropped"		"models/weapons/w_me_butterfly_dropped.mdl"

@@ -4,6 +4,7 @@
 	{
 		"weapon_decoy_prefab"
 		{
+			"image_inventory"		"mw2019_weapons/decoy"
 			"attributes"
 			{
 				"model right handed"		"0"

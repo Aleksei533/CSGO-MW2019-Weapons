@@ -7,7 +7,10 @@
 			"name"		"weapon_breachcharge"
 			"prefab"		"weapon_breachcharge_prefab"
 			"item_class"		"weapon_breachcharge"
+			"item_name"		"C4"
+			"item_description"		"Large explosive that sticks to surfaces and can be detonated remotely."
 			"item_quality"		"normal"
+			"image_inventory"		"mw2019_weapons/c4"
 			"attributes"
 			{
 				"primary clip size"		"1"

@@ -9,6 +9,7 @@
 			"item_class"		"weapon_bumpmine"
 			"item_name"		"Claymore"
 			"item_description"		"Directional anti-personnel mine that triggers a proximity-based explosion."
+			"image_inventory"		"mw2019_weapons/claymore"
 		}
     }
 }

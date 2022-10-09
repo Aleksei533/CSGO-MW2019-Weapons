@@ -13,6 +13,7 @@
 			"item_class"		"weapon_healthshot"
 			"item_name"		"Stim"
 			"item_description"		"Military stimulant that cauterizes combat wounds and boosts user's stamina for a short chunk of time."
+			"image_inventory"		"mw2019_weapons/stim"
 			"item_quality"		"normal"
 			"baseitem"		"1"
 			"default_slot_item"		"1"
