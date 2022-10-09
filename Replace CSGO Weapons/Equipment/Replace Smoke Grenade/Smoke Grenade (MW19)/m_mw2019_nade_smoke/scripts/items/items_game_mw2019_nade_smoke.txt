@@ -4,6 +4,7 @@
 	{
 		"weapon_smokegrenade_prefab"
 		{
+			"image_inventory"		"mw2019_weapons/smoke"
 			"attributes"
 			{
 				"model right handed"		"0"
