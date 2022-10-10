@@ -196,7 +196,7 @@
 	"volume"		"1.0"
 	"pitch"			"100"
 	"soundlevel"  		"SNDLVL_65dB"
-	"wave"			"weapons/mg34/wfoly_plr_lm_mgolf34_raise_first_boltclose_01.wav"
+	"wave"			"weapons/mg34/wfoly_plr_lm_mgolf34_raise_first_boltopen_01.wav"
 	"hrtf_follow"		"1"
 	"soundentry_version" "2"
 	"operator_stacks"
