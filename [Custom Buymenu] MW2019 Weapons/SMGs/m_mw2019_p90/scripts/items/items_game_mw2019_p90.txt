@@ -87,7 +87,7 @@
 				"weapon_type"		"SubMachinegun"
 				"player_animation_extension"		"p90"
 				"primary_ammo"		"BULLET_PLAYER_57MM"
-				"sound_single_shot"		"Weapon_P90.Single"
+				"sound_single_shot"		"Weapon_MWP90.Single"
 				"sound_nearlyempty"		"Default.nearlyempty"
 			}
 		}

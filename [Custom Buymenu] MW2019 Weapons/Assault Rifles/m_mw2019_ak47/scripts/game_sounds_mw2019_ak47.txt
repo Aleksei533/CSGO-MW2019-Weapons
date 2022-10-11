@@ -1,4 +1,4 @@
-"Weapon_AK47.Single"
+"Weapon_MWAK47.Single"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1"
@@ -23,7 +23,7 @@
 			
 			"play_distant_version_1"
 			{
-				"entry_name" "Weapon_AK47.SingleDistant"
+				"entry_name" "Weapon_MWAK47.SingleDistant"
 			}
 		}
 
@@ -44,7 +44,7 @@
 	
 }
 
-"Weapon_AK47.SingleDistant"
+"Weapon_MWAK47.SingleDistant"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.4"

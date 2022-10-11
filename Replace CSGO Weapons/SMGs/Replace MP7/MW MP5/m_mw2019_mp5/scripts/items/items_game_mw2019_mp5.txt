@@ -93,8 +93,8 @@
 				"player_animation_extension"		"mp5sd"
 				"primary_ammo"		"BULLET_PLAYER_9MM"
 				"secondary_ammo"		"BULLET_PLAYER_9MM"
-				"sound_single_shot"		"Weapon_MP5.Single"
-				"sound_special1"		"Weapon_MP5.Single"
+				"sound_single_shot"		"Weapon_MWMP5.Single"
+				"sound_special1"		"Weapon_MWMP5.Single"
 				"sound_nearlyempty"		"Default.nearlyempty"
 			}
 		}

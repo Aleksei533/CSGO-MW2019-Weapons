@@ -91,7 +91,7 @@
 				"weapon_type"		"Rifle"
 				"player_animation_extension"		"famas"
 				"primary_ammo"		"BULLET_PLAYER_556MM"
-				"sound_single_shot"		"Weapon_FAMAS.Single"
+				"sound_single_shot"		"Weapon_FR556.Single"
 				"sound_nearlyempty"		"Default.nearlyempty"
 			}
 		}

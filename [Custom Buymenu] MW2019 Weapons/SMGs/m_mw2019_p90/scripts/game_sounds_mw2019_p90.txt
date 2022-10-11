@@ -1,4 +1,4 @@
-"Weapon_P90.Single"
+"Weapon_MWP90.Single"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1"
@@ -24,7 +24,7 @@
 			
 			"play_distant_version_1"
 			{
-				"entry_name" "Weapon_P90.SingleDistant"
+				"entry_name" "Weapon_MWP90.SingleDistant"
 			}
 		}
 
@@ -45,7 +45,7 @@
 	
 }
 
-"Weapon_P90.SingleDistant"
+"Weapon_MWP90.SingleDistant"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.4"

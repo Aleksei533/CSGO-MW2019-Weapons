@@ -1,4 +1,4 @@
-"Weapon_M4A1.Single"
+"Weapon_MWM4A1.Single"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1"
@@ -24,7 +24,7 @@
 			
 			"play_distant_version_1"
 			{
-				"entry_name" "Weapon_M4A1.SingleDistant"
+				"entry_name" "Weapon_MWM4A1.SingleDistant"
 			}
 		}
 
@@ -45,7 +45,7 @@
 	
 }
 
-"Weapon_M4A1.SingleDistant"
+"Weapon_MWM4A1.SingleDistant"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.4"

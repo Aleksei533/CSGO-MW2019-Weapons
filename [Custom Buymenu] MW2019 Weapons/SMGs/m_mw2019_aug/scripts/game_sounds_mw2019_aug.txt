@@ -1,4 +1,4 @@
-"Weapon_AUG.Single"
+"Weapon_MWAUG.Single"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1"
@@ -24,7 +24,7 @@
 			
 			"play_distant_version_1"
 			{
-				"entry_name" "Weapon_AUG.SingleDistant"
+				"entry_name" "Weapon_MWAUG.SingleDistant"
 			}
 		}
 
@@ -45,7 +45,7 @@
 	
 }
 
-"Weapon_AUG.SingleDistant"
+"Weapon_MWAUG.SingleDistant"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.4"

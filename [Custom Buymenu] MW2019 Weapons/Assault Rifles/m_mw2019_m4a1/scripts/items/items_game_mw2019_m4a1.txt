@@ -89,7 +89,7 @@
 				"weapon_type"		"Rifle"
 				"player_animation_extension"		"m4"
 				"primary_ammo"		"BULLET_PLAYER_556MM"
-				"sound_single_shot"		"Weapon_M4A1.Single"
+				"sound_single_shot"		"Weapon_MWM4A1.Single"
 				"sound_nearlyempty"		"Default.nearlyempty"
 			}
 		}

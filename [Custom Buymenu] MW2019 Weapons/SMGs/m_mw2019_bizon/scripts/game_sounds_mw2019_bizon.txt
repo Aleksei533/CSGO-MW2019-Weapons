@@ -1,4 +1,4 @@
-"Weapon_Bizon.Single"
+"Weapon_MWBizon.Single"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1"
@@ -24,7 +24,7 @@
 			
 			"play_distant_version_1"
 			{
-				"entry_name" "Weapon_Bizon.SingleDistant"
+				"entry_name" "Weapon_MWBizon.SingleDistant"
 			}
 		}
 
@@ -45,7 +45,7 @@
 	
 }
 
-"Weapon_Bizon.SingleDistant"
+"Weapon_MWBizon.SingleDistant"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.4"

@@ -90,7 +90,7 @@
 				"player_animation_extension"		"mp7"
 				"primary_ammo"		"BULLET_PLAYER_9MM"
 				"secondary_ammo"		"BULLET_PLAYER_9MM"
-				"sound_single_shot"		"Weapon_MP7.Single"
+				"sound_single_shot"		"Weapon_MWMP7.Single"
 				"sound_nearlyempty"		"Default.nearlyempty"
 			}
 		}

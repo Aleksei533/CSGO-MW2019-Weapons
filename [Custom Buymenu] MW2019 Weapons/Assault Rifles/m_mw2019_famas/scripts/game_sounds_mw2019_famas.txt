@@ -1,4 +1,4 @@
-"Weapon_FAMAS.Single"
+"Weapon_FR556.Single"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1"
@@ -24,7 +24,7 @@
 			
 			"play_distant_version_1"
 			{
-				"entry_name" "Weapon_FAMAS.SingleDistant"
+				"entry_name" "Weapon_FR556.SingleDistant"
 			}
 		}
 
@@ -45,7 +45,7 @@
 	
 }
 
-"Weapon_FAMAS.SingleDistant"
+"Weapon_FR556.SingleDistant"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.4"

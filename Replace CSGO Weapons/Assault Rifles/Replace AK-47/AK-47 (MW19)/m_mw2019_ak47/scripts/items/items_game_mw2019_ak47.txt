@@ -88,7 +88,7 @@
 				"weapon_type"		"Rifle"
 				"player_animation_extension"		"ak"
 				"primary_ammo"		"BULLET_PLAYER_762MM"
-				"sound_single_shot"		"Weapon_AK47.Single"
+				"sound_single_shot"		"Weapon_MWAK47.Single"
 				"sound_nearlyempty"		"Default.nearlyempty"
 			}
 		}

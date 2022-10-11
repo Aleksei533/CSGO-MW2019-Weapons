@@ -88,7 +88,7 @@
 				"weapon_type"		"SubMachinegun"
 				"player_animation_extension"		"bizon"
 				"primary_ammo"		"BULLET_PLAYER_9MM"
-				"sound_single_shot"		"Weapon_Bizon.Single"
+				"sound_single_shot"		"Weapon_MWBizon.Single"
 				"sound_nearlyempty"		"Default.nearlyempty"
 			}
 		}

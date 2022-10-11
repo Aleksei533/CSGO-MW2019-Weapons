@@ -1,4 +1,4 @@
-"Weapon_MP7.Single"
+"Weapon_MWMP7.Single"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"1"
@@ -24,7 +24,7 @@
 			
 			"play_distant_version_1"
 			{
-				"entry_name" "Weapon_MP7.SingleDistant"
+				"entry_name" "Weapon_MWMP7.SingleDistant"
 			}
 		}
 
@@ -45,7 +45,7 @@
 	
 }
 
-"Weapon_MP7.SingleDistant"
+"Weapon_MWMP7.SingleDistant"
 {
 	"channel"		"CHAN_STATIC"
 	"volume"		"0.4"
