@@ -44,7 +44,7 @@
 		{
 			"camera_offset"   "36.54 16.89 -5.00"
 			"camera_orient"   "-2.82 -134.14 0.00"
-			"orbit_pivot"     "17.45 -2.77 -3.65"
+			"orbit_pivot"     "18.45 -1.77 -2.65"
 			"item_rotate"	  "y[-360 360] z[ -30 30 ]"
 			"shadow_light_color"         "[0.90 0.96 1.00]"
 			"shadow_light_brightness"    "3.0"
