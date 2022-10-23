@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "particles/doi_spraydirt"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$translucent" "1"	
+}

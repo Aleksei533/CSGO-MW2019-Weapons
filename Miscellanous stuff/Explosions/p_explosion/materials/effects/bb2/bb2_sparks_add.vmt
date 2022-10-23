@@ -1,0 +1,12 @@
+
+
+"SpriteCard"
+{
+	$basetexture "effects/bb2/bb2_sparks"
+	$additive 1
+	$overbrightfactor 7
+	$DEPTHBLEND 1
+        $depthblendscale 10
+}
+
+

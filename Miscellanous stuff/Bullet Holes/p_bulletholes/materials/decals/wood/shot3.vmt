@@ -1,0 +1,5 @@
+"DecalModulate"
+{
+	$basetexture "decals\wood\shot3"
+	$decalscale "0.10"
+}

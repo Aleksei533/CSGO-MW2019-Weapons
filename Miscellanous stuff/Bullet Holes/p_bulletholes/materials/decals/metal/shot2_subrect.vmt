@@ -1,0 +1,10 @@
+"Subrect"
+{
+	$Material "decals\metal\shot2"
+	$Pos "0 0"
+	$Size "128 128"
+	$modelmaterial "decals\metal\shot2"
+	$decal "1"
+	$decalscale "0.01"
+	$decalscaleVariation "0.15"
+}

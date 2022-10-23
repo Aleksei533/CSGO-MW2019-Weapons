@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Props/Sign_CHANGE01a"
+	"$surfaceprop" "metal"
+	"$basetexturetransform" "center 0 0 scale 16 16 rotate 0 translate 0 0" 
+}
