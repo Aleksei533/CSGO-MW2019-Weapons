@@ -7,7 +7,7 @@
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"AUG 9MM"
-			"item_description"		"AUG 9MM"
+			"item_description"		"A modular, fully automatic weapon configured for mobility and close range combat."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/aug"
 			"model_player"		"models/weapons/v_sm_aug.mdl"

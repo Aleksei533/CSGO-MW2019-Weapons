@@ -7,7 +7,7 @@
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"Oden"
-			"item_description"		"Oden"
+			"item_description"		"A fully automatic bullpup assault rifle maintains a slow cycle rate to help control hard hitting 12.7 x 55mm ammunition."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/oden"
 			"model_player"		"models/weapons/v_ar_oden.mdl"

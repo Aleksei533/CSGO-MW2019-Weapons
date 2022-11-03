@@ -7,7 +7,7 @@
 			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
 			"item_name"		"CX-9"
-			"item_description"		"cx9"
+			"item_description"		"Excellent maneuverability and a fast fire rate make this blowback-operated SMG a formidable weapon in close-quarters engagements."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/cx9"
 			"model_player"		"models/weapons/v_sm_cx9.mdl"

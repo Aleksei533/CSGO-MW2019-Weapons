@@ -7,7 +7,7 @@
 			"prefab"		"machinegun"
 			"item_class"		"weapon_deagle"
 			"item_name"		"PKM"
-			"item_description"		"PKM"
+			"item_description"		"A fully automatic light machine gun firing 7.62mm ammunition for high damage at a moderate fire rate."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/pkm"
 			"model_player"		"models/weapons/v_lm_pkm.mdl"

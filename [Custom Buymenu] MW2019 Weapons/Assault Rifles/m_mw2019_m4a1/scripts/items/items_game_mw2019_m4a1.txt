@@ -7,7 +7,7 @@
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"M4A1"
-			"item_description"		"M4A1 Modern Warfare"
+			"item_description"		"A fully automatic, all-purpose assault rifle. Control your shots and this weapon can be very effective at range."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/m4a1"
 			"model_player"		"models/weapons/v_ar_m4a1.mdl"

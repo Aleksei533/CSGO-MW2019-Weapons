@@ -7,7 +7,7 @@
 			"prefab"		"machinegun"
 			"item_class"		"weapon_deagle"
 			"item_name"		"MG34"
-			"item_description"		"MG34"
+			"item_description"		"Fully automatic weapon with a high rate of fire and punishing 7.92 Mauser ammunition. Salvaged WW2 machine guns are still reliable and deadly on the battlefield."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/mg34"
 			"model_player"		"models/weapons/v_lm_mg34.mdl"

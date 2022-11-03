@@ -7,7 +7,7 @@
 			"prefab"		"sniper_rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"Kar98k"
-			"item_description"		"kar98k"
+			"item_description"		"Bolt action rifle chambered in 7.92 Mauser. A WW2 relic that is still extremely lethal in the hands of a rebel marksman."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/kar98k"
 			"model_player"		"models/weapons/v_sn_kar98k.mdl"

@@ -6,7 +6,7 @@
 		{
 			"prefab"		"melee"
 			"item_name"		"Combat Knife"
-			"item_description"		"CoD knife"
+			"item_description"		"A CQC tactical knife. Standard military issue, employed for fast, quiet, and deadly wetwork."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/knife_combat"
 			"model_player"		"models/weapons/v_me_knife.mdl"

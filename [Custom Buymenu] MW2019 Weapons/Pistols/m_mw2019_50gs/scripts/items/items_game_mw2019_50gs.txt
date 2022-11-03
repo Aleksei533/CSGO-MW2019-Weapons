@@ -7,7 +7,7 @@
 			"prefab"		"secondary"
 			"item_class"		"weapon_deagle"
 			"item_name"		".50 GS"
-			"item_description"		"Desert Eagle MW2019"
+			"item_description"		"The most powerful semi-automatic handgun available, deals heavy damage up to intermediate ranges."
 			"item_rarity"		"uncommon"
 			"image_inventory"		"mw2019_weapons/50gs"
 			"model_player"		"models/weapons/v_pi_50gs.mdl"

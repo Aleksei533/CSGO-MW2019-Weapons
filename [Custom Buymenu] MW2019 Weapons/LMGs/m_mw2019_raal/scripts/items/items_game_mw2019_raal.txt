@@ -7,7 +7,7 @@
 			"prefab"		"machinegun"
 			"item_class"		"weapon_deagle"
 			"item_name"		"RAAL MG"
-			"item_description"		"raal"
+			"item_description"		"The Reconnaissance Auxiliary Assault Lightweight Machine Gun uses a low fire rate and a reciprocating barrel to mitigate the powerful .338 Norma Mag recoil. Advanced titanium construction keeps the weight manageable."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/raal"
 			"model_player"		"models/weapons/v_lm_raal.mdl"

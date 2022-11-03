@@ -7,7 +7,7 @@
 			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
 			"item_name"		"MP5"
-			"item_description"		"MP5 MW2019"
+			"item_description"		"A fully automatic 9mm submachine gun. A perfect balance of stability, mobility, and lethality."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/mp5"
 			"model_player"		"models/weapons/v_sm_mp5.mdl"

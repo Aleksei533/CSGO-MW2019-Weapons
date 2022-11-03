@@ -7,7 +7,7 @@
 			"prefab"		"machinegun"
 			"item_class"		"weapon_deagle"
 			"item_name"		"M91"
-			"item_description"		"M91"
+			"item_description"		"Robust light machine gun sacrifices mobility for stability. High caliber sustained fire will neutralize targets at long ranges."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/m91"
 			"model_player"		"models/weapons/v_lm_m91.mdl"

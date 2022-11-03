@@ -7,7 +7,7 @@
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"FN SCAR-17"
-			"item_description"		"SCAR-17"
+			"item_description"		"Large caliber, fully automatic assault rifle that provides high damage over long ranges."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/scar17"
 			"model_player"		"models/weapons/v_ar_scar17.mdl"

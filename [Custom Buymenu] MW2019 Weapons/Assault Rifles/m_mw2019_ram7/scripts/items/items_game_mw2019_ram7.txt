@@ -7,7 +7,7 @@
 			"prefab"		"rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"RAM-7"
-			"item_description"		"RAM-7"
+			"item_description"		"A fully automatic bullpup assault rifle with a compact design that lends itself to close-quarter engagements."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/ram7"
 			"model_player"		"models/weapons/v_ar_ram7.mdl"

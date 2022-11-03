@@ -7,7 +7,7 @@
 			"prefab"		"sniper_rifle"
 			"item_class"		"weapon_deagle"
 			"item_name"		"Rytec AMR"
-			"item_description"		"Rytec AMR"
+			"item_description"		"This semi-automatic Anti-Material Rifle is chambered in .50 BMG for dominant long range assaults. A 25x59mm high-explosive payload variant is officially listed as "experimental", but has been deployed on multiple classified missions with great effectiveness."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/rytec"
 			"model_player"		"models/weapons/v_sn_rytec.mdl"

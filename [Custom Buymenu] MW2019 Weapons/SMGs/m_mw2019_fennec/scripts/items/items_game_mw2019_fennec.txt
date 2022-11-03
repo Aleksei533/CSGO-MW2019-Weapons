@@ -7,7 +7,7 @@
 			"prefab"		"smg"
 			"item_class"		"weapon_deagle"
 			"item_name"		"Fennec"
-			"item_description"		"Fennec"
+			"item_description"		"An aggressive full auto submachine gun with buttery smooth recoil and a blazing fast rate of fire that is exceptional for strategic room clearing and holding down the front line."
 			"item_rarity"		"rare"
 			"image_inventory"		"mw2019_weapons/fennec"
 			"model_player"		"models/weapons/v_sm_fennec.mdl"
